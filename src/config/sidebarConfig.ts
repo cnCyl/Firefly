@@ -233,6 +233,13 @@ export const sidebarLayoutConfig: SidebarLayoutConfig = {
 				},
 			},
 		},
+		// 组件类型：时间倒计时组件
+		{
+			type: "schedule",
+			enable: true,
+			position: "sticky",
+			showOnPostPage: false,
+		},
 	],
 
 	// 移动端底部组件配置列表

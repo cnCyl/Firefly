@@ -3,8 +3,10 @@ title: docker学习记录
 published: 2026-08-09 21:01:30
 description: docker学习
 tags: [学习笔记, 运维, docker]
-category: 文章示例
+category: 学习笔记
+slug: study-01-docker
 image: api
+author: ylxs
 ---
 
 
