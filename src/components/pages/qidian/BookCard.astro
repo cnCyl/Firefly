@@ -1,0 +1,130 @@
+---
+import { Icon } from "astro-icon/components";
+import I18nKey from "@/i18n/i18nKey";
+import { i18n } from "@/i18n/translation";
+import type { QidianBook } from "@/types/qidianConfig";
+import { getLqipProps } from "@/utils/lqip-utils";
+
+interface Props {
+	book: QidianBook;
+}
+
+const { book } = Astro.props;
+
+// LQIP 渐变占位（远程封面无 LQIP 数据时退化为纯色占位）
+const lqipProps = book.cover
+	? getLqipProps(book.cover, undefined, true)
+	: { style: "" };
+---
+
+<a
+  href={book.url}
+  target="_blank"
+  rel="noopener noreferrer"
+  class="book-card group relative block overflow-hidden rounded-xl transition-all duration-300 hover:shadow-lg hover:scale-[1.02]"
+>
+  <!-- Cover -->
+  <div class="aspect-3/4 relative overflow-hidden bg-neutral-200 dark:bg-neutral-700">
+    {book.cover ? (
+      <>
+        <div
+          class="lqip-placeholder absolute inset-0 pointer-events-none"
+          style={lqipProps.style}
+          aria-hidden="true"
+        ></div>
+        <img
+          src={book.cover}
+          alt={book.title}
+          class="w-full h-full object-cover pointer-events-none opacity-0 transition-all duration-500 ease-out group-hover:scale-105"
+          loading="lazy"
+          decoding="async"
+          referrerpolicy="no-referrer"
+        />
+      </>
+    ) : (
+      <div class="w-full h-full flex items-center justify-center">
+        <Icon
+          is:inline
+          name="material-symbols:menu-book-rounded"
+          class="text-neutral-400 dark:text-neutral-500 text-5xl"
+        />
+      </div>
+    )}
+
+    <!-- Update status badge（左上角） -->
+    {book.updateStatus && (
+      <div
+        class:list={[
+          "absolute top-2 left-2 px-2 py-0.5 rounded-full text-[0.65rem] text-white font-medium backdrop-blur-sm",
+          book.updateStatus.includes("完结")
+            ? "bg-neutral-600/60"
+            : book.updateStatus.includes("无更新") || book.updateStatus.includes("读完")
+              ? "bg-emerald-600/80"
+              : "bg-(--primary)/80",
+        ]}
+      >
+        {book.updateStatus}
+      </div>
+    )}
+
+    <!-- Category badge（更新状态下方） -->
+    {book.category && (
+      <div class="absolute top-9 left-2 px-2 py-0.5 rounded-full text-[0.65rem] text-white font-medium bg-black/40 backdrop-blur-sm">
+        {book.category}
+      </div>
+    )}
+
+    <!-- Recommend star（右上角，点击切换推荐） -->
+    <button
+      data-recommend-toggle
+      data-url={book.url}
+      data-recommended={book.recommend ? "true" : "false"}
+      type="button"
+      aria-label={i18n(I18nKey.qidianRecommend)}
+      class="absolute top-2 right-2 z-20 w-7 h-7 flex items-center justify-center rounded-full bg-black/40 backdrop-blur-sm transition-transform hover:scale-110 active:scale-95 cursor-pointer"
+    >
+      <Icon
+        is:inline
+        name="fa7-solid:star"
+        class:list={["text-amber-400 text-base", book.recommend ? "" : "hidden"]}
+        data-icon-solid
+      />
+      <Icon
+        is:inline
+        name="fa7-regular:star"
+        class:list={["text-white/85 text-base", book.recommend ? "hidden" : ""]}
+        data-icon-outline
+      />
+    </button>
+
+    <!-- Gradient overlay + info -->
+    <div class="absolute inset-0 bg-linear-to-t from-black/80 via-black/30 to-transparent" />
+    <div class="absolute bottom-0 left-0 right-0 p-3">
+      <h3 class="font-bold text-sm text-white line-clamp-1 drop-shadow-lg" title={book.title}>
+        {book.title}
+      </h3>
+
+      <p class="text-xs text-white/75 line-clamp-1 mt-0.5" title={book.author}>
+        {book.author}
+      </p>
+
+      {book.lastChapter && (
+        <p
+          class="text-[0.65rem] text-white/60 line-clamp-1 mt-1.5 leading-relaxed"
+          title={book.lastChapter}
+        >
+          {book.lastChapter}
+        </p>
+      )}
+    </div>
+
+    {book.readProgress && (
+      <div
+        class="absolute right-0 bottom-0 px-1.5 py-0.5 rounded-tl-md text-[0.6rem] text-white/80 bg-black/50 backdrop-blur-sm"
+        title={i18n(I18nKey.qidianReadProgress)}
+      >
+        {book.readProgress}
+      </div>
+    )}
+  </div>
+</a>

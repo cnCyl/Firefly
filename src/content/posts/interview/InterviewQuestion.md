@@ -10,3 +10,4 @@ author: ylxs
 ---
 
 [面试题1](https://blog.csdn.net/leah126/article/details/151792658)  
+![面试题1](/images/interview/26081404.png)  

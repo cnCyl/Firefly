@@ -1,10 +1,23 @@
 ---
 import fs from "node:fs";
 import path from "node:path";
-import { footerConfig, profileConfig } from "@/config";
+import { footerConfig, profileConfig, siteConfig } from "@/config";
 import { url } from "@/utils/url-utils";
 
 const currentYear = new Date().getFullYear();
+
+// 站点运行时间（静态兜底值，构建时计算；客户端脚本会在访问时动态更新）
+const siteStartDate = siteConfig.siteStartDate || "2026-08-09";
+// 解析为本地时区当天 0 点，避免 new Date("YYYY-MM-DD") 按 UTC 解析造成时区偏移
+const [startYear, startMonth, startDay] = siteStartDate
+	.split("-")
+	.map(Number);
+const startDate = new Date(startYear, startMonth - 1, startDay);
+const runningMs = Math.max(0, Date.now() - startDate.getTime());
+const staticRunningDays = Math.floor(runningMs / 86400000);
+const staticRunningHours = Math.floor((runningMs % 86400000) / 3600000);
+const staticRunningMinutes = Math.floor((runningMs % 3600000) / 60000);
+const staticRunningSeconds = Math.floor((runningMs % 60000) / 1000);
 
 // 读取FooterConfig.html文件内容
 let customFooterHtml = "";
@@ -57,6 +70,33 @@ if (footerConfig.enable) {
         href={url("sitemap-index.xml")}>Sitemap</a
       >
     </div>
+    <div class="m-0.5 flex gap-1.5 justify-center flex-wrap items-baseline">
+      <span>本站已运行</span>
+      <span
+        id="footer-running-days"
+        class="font-medium text-(--primary)"
+      >{staticRunningDays}</span
+      >
+      <span>天</span>
+      <span
+        id="footer-running-hours"
+        class="font-medium text-(--primary)"
+      >{staticRunningHours}</span
+      >
+      <span>时</span>
+      <span
+        id="footer-running-minutes"
+        class="font-medium text-(--primary)"
+      >{staticRunningMinutes}</span
+      >
+      <span>分</span>
+      <span
+        id="footer-running-seconds"
+        class="font-medium text-(--primary)"
+      >{staticRunningSeconds}</span
+      >
+      <span>秒</span>
+    </div>
     <div class="m-0.5 flex gap-2 justify-center flex-wrap">
       <span>Powered by</span>
       <a
@@ -78,3 +118,32 @@ if (footerConfig.enable) {
     -->
   </div>
 </div>
+
+<script is:inline define:vars={{ siteStartDate }}>
+  function updateFooterRunningTime() {
+    const daysEl = document.getElementById("footer-running-days");
+    const hoursEl = document.getElementById("footer-running-hours");
+    const minutesEl = document.getElementById("footer-running-minutes");
+    const secondsEl = document.getElementById("footer-running-seconds");
+    if (!daysEl || !hoursEl || !minutesEl || !secondsEl) return;
+
+    // 解析为本地时区当天 0 点
+    const [y, m, d] = siteStartDate.split("-").map(Number);
+    const startMs = new Date(y, m - 1, d).getTime();
+    let diffMs = Date.now() - startMs;
+    if (diffMs < 0) diffMs = 0;
+
+    daysEl.textContent = Math.floor(diffMs / 86400000).toString();
+    hoursEl.textContent = Math.floor((diffMs % 86400000) / 3600000).toString();
+    minutesEl.textContent = Math.floor((diffMs % 3600000) / 60000).toString();
+    secondsEl.textContent = Math.floor((diffMs % 60000) / 1000).toString();
+  }
+
+  updateFooterRunningTime();
+  setInterval(updateFooterRunningTime, 1000);
+
+  // 页面切换（Swup）后立即刷新一次
+  document.addEventListener("swup:contentReplaced", () => {
+    setTimeout(updateFooterRunningTime, 100);
+  });
+</script>

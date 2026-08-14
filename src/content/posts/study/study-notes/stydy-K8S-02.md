@@ -15,8 +15,9 @@ author: ylxs
 master:
 rocky04 192.168.31.105 rocky04
 nodes
-rocky04 192.168.31.104 rocky01
-rocky04 192.168.31.102 rocky02
+rocky01 192.168.31.104 rocky01
+rocky02 192.168.31.102 rocky02
+rocky03 192.168.31.103 rocky03
 ```
 
 # 问题
@@ -34,11 +35,11 @@ crt导入镜像包后，如果拉取的不是官方镜像，基本上就会启�
 
 **相关命令**  
 `kubectl get pods -n kube-system // 查看k8s系统pods 去掉kube-system就是查看pods`
-![查看k8s系统pods](/docs/images/study/26081201.png)  
-![查看k8s的pods](/docs/images/study/26081203.png)  
+![查看k8s系统pods](/images/study/26081201.png)  
+![查看k8s的pods](/images/study/26081203.png)  
 
 `kubectl describe pod -n kube-system calico-node-hd466| grep -A 10 "Events"// 查看每个pod具体报错`  
-![查看每个pod具体报错](/docs/images/study/26081202.png)  
+![查看每个pod具体报错](/images/study/26081202.png)  
 
 
 ```
@@ -47,6 +48,10 @@ ctr -n k8s.io images import nginx.tar // crt导入nginx的镜像
 ctr -n k8s.io images tag <原镜像> <新镜像> // crt重新命名镜像
 ctr -n k8s.io images ls | grep <镜像名> // crt查看镜像
 ```
+---
+
+260814更新：  
+经实测，在配置k8s新node节点的时候，只需要把yum的源改成清华的镜像源，再更新ctr的配置文件就能直接安装kubelet、kubeadm、kubectl等组件。
 
 ## 2.新节点加入k8s集群
 k8s新nodes加入时，需要通过yum命令下载组件，下载前需要先配置yum的国内镜像源  
@@ -54,8 +59,12 @@ k8s新nodes加入时，需要通过yum命令下载组件，下载前需要先配
 推荐配置清华源  
 [清华源](https://mirrors.tuna.tsinghua.edu.cn/help/kubernetes/)
 
-![yum配置文件](/docs/images/study/26081401.png)  
-![清华源](/docs/images/study/26081402.png)  
+![yum配置文件](/images/study/26081401.png)  
+![清华源](/images/study/26081402.png)  
+
+<span style="color: red; font-weight: bold;">重要提示</span>  
+配置yum文件的时候一定要把版本改成安装的版本，否则是无法拉取成功的
+![重点提示](/images/study/26081403.png)  
 
 **导入命令**  
 `yum install -y kubelet-1.32.13 kubeadm-1.32.13 kubectl-1.32.13 --disableexcludes=kubernetes`

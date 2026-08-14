@@ -114,6 +114,28 @@ enum I18nKey {
 	searchBooknav = "searchBooknav",
 	booknavEmpty = "booknavEmpty",
 
+	// 起点书架
+	qidian = "qidian",
+	qidianDescription = "qidianDescription",
+	qidianSearch = "qidianSearch",
+	qidianNoResults = "qidianNoResults",
+	qidianNoData = "qidianNoData",
+	qidianNoDataHint = "qidianNoDataHint",
+	qidianReadProgress = "qidianReadProgress",
+	qidianFetchedAt = "qidianFetchedAt",
+	qidianFetchHint = "qidianFetchHint",
+	qidianRecommend = "qidianRecommend",
+	qidianRecommended = "qidianRecommended",
+	qidianReadToLatest = "qidianReadToLatest",
+	qidianNotReadToLatest = "qidianNotReadToLatest",
+	qidianColRecommend = "qidianColRecommend",
+	qidianColStatus = "qidianColStatus",
+	qidianColCategory = "qidianColCategory",
+	qidianColTitle = "qidianColTitle",
+	qidianColAuthor = "qidianColAuthor",
+	qidianColLatestChapter = "qidianColLatestChapter",
+	qidianColReadChapter = "qidianColReadChapter",
+
 	// 番组计划筛选和状态文本
 	bangumiTitle = "bangumiTitle",
 	bangumiSubtitle = "bangumiSubtitle",

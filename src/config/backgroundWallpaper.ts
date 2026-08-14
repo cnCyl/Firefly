@@ -73,17 +73,15 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 			// 是否启用主页横幅文字
 			enable: true,
 			// 主页横幅主标题
-			title: "Lovely firefly!",
+			title: "ylxs Blog",
 			// 主页横幅主标题字体大小
 			titleSize: "4.5rem",
-			// 主页横幅副标题
+			// 主页横幅副标题（数组 = 打字机循环展示，可自由增删句子）
 			subtitle: [
-				"In Reddened Chrysalis, I Once Rest",
-				"From Shattered Sky, I Free Fall",
-				"Amidst Silenced Stars, I Deep Sleep",
-				"Upon Lighted Fyrefly, I Soon Gaze",
-				"From Undreamt Night, I Thence Shine",
-				"In Finalized Morrow, I Full Bloom",
+				"严于律己，宽以待人",
+				"纸上得来终觉浅，绝知此事要躬行",
+				"学而不思则罔，思而不学则殆",
+				"路漫漫其修远兮，吾将上下而求索",
 			],
 			// 主页横幅副标题字体大小
 			subtitleSize: "1.5rem",
@@ -96,8 +94,8 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 				speed: 100,
 				// 删除速度（毫秒）
 				deleteSpeed: 50,
-				// 完全显示后的暂停时间（毫秒）
-				pauseTime: 2000,
+				// 完全显示后的暂停时间（毫秒），5000 = 5 秒一个循环
+				pauseTime: 5000,
 			},
 		},
 		// 文章横幅信息："description" 显示描述，"meta" 显示日期、字数和阅读时长
