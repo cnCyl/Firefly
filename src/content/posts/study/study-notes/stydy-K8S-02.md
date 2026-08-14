@@ -1,7 +1,7 @@
 ---
 title: K8S安装记录
 published: 2026-08-11
-updated: 2026-08-12
+updated: 2026-08-14
 description: K8S学习
 tags: [学习笔记, 运维, K8S]
 category: 学习笔记
@@ -34,11 +34,11 @@ crt导入镜像包后，如果拉取的不是官方镜像，基本上就会启�
 
 **相关命令**  
 `kubectl get pods -n kube-system // 查看k8s系统pods 去掉kube-system就是查看pods`
-![查看k8s系统pods](./images/26081201.png)  
-![查看k8s的pods](./images/26081203.png)  
+![查看k8s系统pods](/docs/images/study/26081201.png)  
+![查看k8s的pods](/docs/images/study/26081203.png)  
 
 `kubectl describe pod -n kube-system calico-node-hd466| grep -A 10 "Events"// 查看每个pod具体报错`  
-![查看每个pod具体报错](./images/26081202.png)  
+![查看每个pod具体报错](/docs/images/study/26081202.png)  
 
 
 ```
@@ -48,6 +48,20 @@ ctr -n k8s.io images tag <原镜像> <新镜像> // crt重新命名镜像
 ctr -n k8s.io images ls | grep <镜像名> // crt查看镜像
 ```
 
+## 2.新节点加入k8s集群
+k8s新nodes加入时，需要通过yum命令下载组件，下载前需要先配置yum的国内镜像源  
+`路径：/etc/yum.repos.d/kubernetes.repo`  
+推荐配置清华源  
+[清华源](https://mirrors.tuna.tsinghua.edu.cn/help/kubernetes/)
+
+![yum配置文件](/docs/images/study/26081401.png)  
+![清华源](/docs/images/study/26081402.png)  
+
+**导入命令**  
+`yum install -y kubelet-1.32.13 kubeadm-1.32.13 kubectl-1.32.13 --disableexcludes=kubernetes`
+
+**配置的nginx测试集群打开方式**  
+`curl -L http://192.168.31.105:30502`
 # 总结
 本次安装是依照教学视频+AI的方式进行安装，总共耗时估计为6个小时左右。得出以下结论：  
 1. 但凡是AI给的镜像源之类的链接，99%都是乱编的，根本拉不下来。

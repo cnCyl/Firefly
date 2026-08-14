@@ -44,7 +44,7 @@ docker run --rm --network docker_test alpine:latest ping mysql-test
 通过宿主机的目录挂载到容器目录，把容器数据同步写入到宿主机，实现数据持久化 
 
 --- 
-# Dockerfile
+# Dockerfile 构建自主镜像
 
 ## 基础指令
 
@@ -85,7 +85,7 @@ docker run --rm --network docker_test alpine:latest ping mysql-test
 
 ---
 
-# docker Compose
+# docker Compose 管理多容器
 
 ## 介绍
 Docker Compose 是 Docker 官方推出的多容器编排工具，用于定义和运行由多个 Docker 容器组成的应用。它通过一个 YAML 配置文件（通常是 docker-compose.yml）来描述整个应用的组件（服务）、网络、卷等依赖关系，然后用一条命令启动/停止所有服务。  
