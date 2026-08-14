@@ -44,3 +44,9 @@ package/
 .codex*
 .claude
 .mimocode
+# 起点书架：登录态（敏感 Cookie）与调试文件，切勿提交
+scripts/.qidian-auth.json
+scripts/.qidian-debug.html
+scripts/.qidian-login-debug.html
+# qidian: temp exported recommend file (project root, merged into src/constants by update script)
+/qidian-recommend.json

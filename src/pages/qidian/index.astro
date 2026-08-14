@@ -8,6 +8,7 @@ import MainGridLayout from "@/layouts/MainGridLayout.astro";
 import {
 	getQidianBookCount,
 	getQidianBookshelf,
+	getQidianRecommendedUrls,
 	isGroupTextMode,
 	isQidianBookshelfEmpty,
 	isReadToLatest,
@@ -26,6 +27,16 @@ const bookshelf = getQidianBookshelf();
 const empty = isQidianBookshelfEmpty(bookshelf);
 const totalCount = getQidianBookCount(bookshelf);
 const groups = empty ? [] : bookshelf.groups;
+
+// 持久化推荐 URL 集合（qidian-recommend.json + 书籍 recommend 字段）
+const recommendedUrls = new Set<string>();
+getQidianRecommendedUrls().forEach((u) => recommendedUrls.add(u));
+groups.forEach((g) =>
+	g.books.forEach((b) => {
+		if (b.recommend && b.url) recommendedUrls.add(b.url);
+	}),
+);
+const recommendedUrlList = [...recommendedUrls];
 
 // 每页展示书籍数量
 const PER_PAGE = 20;
@@ -51,6 +62,16 @@ const PER_PAGE = 20;
           <div class="text-3xl font-bold text-neutral-900 dark:text-neutral-100">
             {title}
           </div>
+          <!-- 导出推荐配置按钮 -->
+          <button
+            id="qidian-export-btn"
+            type="button"
+            title="下载推荐列表 JSON，放到项目根目录后运行更新脚本会自动合并"
+            class="ml-auto flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-medium transition-all duration-200 bg-(--btn-regular-bg) text-(--btn-content) hover:opacity-80 cursor-pointer"
+          >
+            <Icon is:inline name="material-symbols:download" class="text-sm" />
+            {i18n(I18nKey.qidianExport)}
+          </button>
         </div>
         {description && (
           <p class="text-base text-neutral-600 dark:text-neutral-400 leading-relaxed mb-4">
@@ -122,6 +143,26 @@ const PER_PAGE = 20;
             <div class="qidian-pagination" data-for="recommend"></div>
           </section>
 
+          <!-- 全部视图（客户端动态渲染为纯文本列表） -->
+          <section
+            id="qidian-all-group"
+            class="qidian-group qidian-all-group hidden"
+            data-group-name="all"
+          >
+            <div class="flex items-center gap-2 mb-3">
+              <Icon
+                is:inline
+                name="material-symbols:view-list"
+                class="text-xl text-(--primary)"
+              />
+              <h2 class="text-lg font-bold text-neutral-900 dark:text-neutral-100">
+                {i18n(I18nKey.all)} ({totalCount})
+              </h2>
+            </div>
+            <div id="qidian-all-body"></div>
+            <div class="qidian-pagination" data-for="all"></div>
+          </section>
+
           <!-- 真实分组区块 -->
           <div class="flex flex-col gap-8">
             {groups.map((group) => (
@@ -159,11 +200,11 @@ const PER_PAGE = 20;
                           <span
                             data-recommend-toggle
                             data-url={book.url}
-                            data-recommended={book.recommend ? "true" : "false"}
+                            data-recommended={recommendedUrls.has(book.url) ? "true" : "false"}
                             data-recommend-text
                             title={i18n(I18nKey.qidianRecommend)}
                             class="cursor-pointer select-none"
-                          >{book.recommend ? "★" : "☆"}</span
+                          >{recommendedUrls.has(book.url) ? "★" : "☆"}</span
                           >
                           <span
                             class:list={[
@@ -204,7 +245,7 @@ const PER_PAGE = 20;
                   <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 xl:grid-cols-5 gap-4">
                     {group.books.map((book) => (
                       <div class="qidian-page-item" data-search-match="true">
-                        <BookCard book={book} />
+                        <BookCard book={{ ...book, recommend: recommendedUrls.has(book.url) }} />
                       </div>
                     ))}
                   </div>
@@ -247,8 +288,11 @@ const PER_PAGE = 20;
     </div>
   </div>
 
-  <script is:inline define:vars={{ groups, PER_PAGE }}>
-    // ========== 推荐（星星）状态：localStorage 持久化 ==========
+  <script is:inline define:vars={{ groups, PER_PAGE, recommendedUrlList }}>
+    // 持久化推荐 URL 集合
+    const RECOMMENDED_URLS = recommendedUrlList || [];
+
+    // ========== 推荐（星星）状态：localStorage 即时 + JSON 持久化 ==========
     const REC_KEY = "qidian-recommend";
 
     function loadRecommend() {
@@ -261,16 +305,31 @@ const PER_PAGE = 20;
 
     function isRecommended(url) {
       const rec = loadRecommend();
+      if (url in rec) return rec[url];
       const el = document.querySelector(`[data-recommend-toggle][data-url="${url}"]`);
-      const def = el ? el.dataset.recommended === "true" : false;
-      return url in rec ? rec[url] : def;
+      if (el && el.dataset.recommended === "true") return true;
+      return RECOMMENDED_URLS.includes(url);
+    }
+
+    /** 当前有效的推荐列表（localStorage 优先，持久化为空时用 JSON 兜底） */
+    function getEffectiveRecommended() {
+      const rec = loadRecommend();
+      const result = [];
+      RECOMMENDED_URLS.forEach((u) => {
+        if (u in rec) { if (rec[u]) result.push(u); }
+        else result.push(u);
+      });
+      Object.keys(rec).forEach((u) => {
+        if (rec[u] && !result.includes(u)) result.push(u);
+      });
+      return result;
     }
 
     function applyRecommendState() {
       const rec = loadRecommend();
       document.querySelectorAll("[data-recommend-toggle]").forEach((el) => {
         const url = el.dataset.url;
-        const on = url in rec ? rec[url] : el.dataset.recommended === "true";
+        const on = url in rec ? rec[url] : (el.dataset.recommended === "true" || RECOMMENDED_URLS.includes(url));
         el.dataset.active = on ? "true" : "false";
 
         const solid = el.querySelector("[data-icon-solid]");
@@ -278,7 +337,6 @@ const PER_PAGE = 20;
         if (solid) solid.classList.toggle("hidden", !on);
         if (outline) outline.classList.toggle("hidden", on);
 
-        // 纯文本模式：星星在元素自身（data-recommend-text）
         const txt = el.matches("[data-recommend-text]")
           ? el
           : el.querySelector("[data-recommend-text]");
@@ -291,19 +349,36 @@ const PER_PAGE = 20;
 
     document.addEventListener("click", (e) => {
       const el = e.target.closest("[data-recommend-toggle]");
-      if (!el) return;
-      e.preventDefault();
-      e.stopPropagation();
-      const rec = loadRecommend();
-      const url = el.dataset.url;
-      const on = url in rec ? rec[url] : el.dataset.recommended === "true";
-      rec[url] = !on;
-      localStorage.setItem(REC_KEY, JSON.stringify(rec));
-      applyRecommendState();
-      renderRecommendGroup();
+      if (el) {
+        e.preventDefault();
+        e.stopPropagation();
+        const rec = loadRecommend();
+        const url = el.dataset.url;
+        const on = url in rec ? rec[url] : (el.dataset.recommended === "true" || RECOMMENDED_URLS.includes(url));
+        rec[url] = !on;
+        localStorage.setItem(REC_KEY, JSON.stringify(rec));
+        applyRecommendState();
+        renderRecommendGroup();
+        return;
+      }
+      // 导出推荐配置
+      const exportBtn = e.target.closest("#qidian-export-btn");
+      if (exportBtn) {
+        e.preventDefault();
+        const list = getEffectiveRecommended();
+        const blob = new Blob(
+          [JSON.stringify({ recommended: list }, null, "\t")],
+          { type: "application/json" },
+        );
+        const a = document.createElement("a");
+        a.href = URL.createObjectURL(blob);
+        a.download = "qidian-recommend.json";
+        a.click();
+        URL.revokeObjectURL(a.href);
+      }
     });
 
-    // ========== 推荐分组（聚合所有推荐书籍，客户端动态渲染） ==========
+    // ========== 推荐分组（聚合所有推荐书籍） ==========
     function bookCardHtml(b) {
       const on = isRecommended(b.url);
       const lastChapter = b.lastChapter || "";
@@ -343,13 +418,13 @@ const PER_PAGE = 20;
 </div>`;
     }
 
+    /** 渲染推荐分组 */
     function renderRecommendGroup() {
       const section = document.getElementById("qidian-recommend-group");
       const body = document.getElementById("qidian-recommend-body");
       const countEl = document.getElementById("qidian-recommend-count");
       if (!section || !body) return;
 
-      // 聚合所有推荐书籍（按 localStorage 优先）
       const recommended = [];
       groups.forEach((g) => {
         g.books.forEach((b) => {
@@ -367,9 +442,9 @@ const PER_PAGE = 20;
 
       const textMode = recommended.length > 50;
       if (textMode) {
-        const head = `<div class="qidian-text-row qidian-text-head"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>`;
         body.innerHTML =
-          head + recommended.map(bookRowHtml).join("");
+          `<div class="qidian-text-row qidian-text-head"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>` +
+          recommended.map(bookRowHtml).join("");
       } else {
         body.innerHTML = `<div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 xl:grid-cols-5 gap-4">${recommended
           .map((b) => `<div class="qidian-page-item" data-search-match="true">${bookCardHtml(b)}</div>`)
@@ -377,6 +452,20 @@ const PER_PAGE = 20;
       }
 
       applyRecommendState();
+      initPagination();
+    }
+
+    /** 渲染「全部」视图：所有书籍合并为纯文本列表 */
+    function renderAllGroup() {
+      const body = document.getElementById("qidian-all-body");
+      if (!body) return;
+      const allBooks = [];
+      groups.forEach((g) => g.books.forEach((b) => allBooks.push(b)));
+      body.innerHTML =
+        `<div class="qidian-text-table"><div class="qidian-text-row qidian-text-head">
+<span>${"推荐"}</span><span>${"状态"}</span><span>${"类型"}</span><span>${"书名"}</span><span>${"作者"}</span><span>${"章节数"}</span><span>${"阅读数"}</span></div>` +
+        allBooks.map(bookRowHtml).join("") +
+        `</div>`;
       initPagination();
     }
 
@@ -405,7 +494,6 @@ const PER_PAGE = 20;
               page === state.current && matched ? "" : "none";
           });
 
-          // 生成分页按钮（Bilibili 搜索风格：上一页 / 页码 / 下一页）+ 页数信息
           if (pages <= 1) {
             pagEl.innerHTML = `<span class="qidian-pg-info">第 1/1 页</span>`;
             return;
@@ -445,7 +533,6 @@ const PER_PAGE = 20;
           this.addEventListener("click", this.handleClick);
           const input = this.querySelector("[data-search]");
           if (input) input.addEventListener("input", () => this.applyFilters());
-          // 初始标记：推荐按钮为激活状态
           this.applyFilters();
         }
 
@@ -471,9 +558,17 @@ const PER_PAGE = 20;
           container.querySelectorAll(".qidian-group").forEach((section) => {
             const groupName = section.dataset.groupName || "";
             const isRecommendGroup = groupName === "recommend";
-            let groupMatch = this.selectedGroup === "all";
-            if (this.selectedGroup === "recommend") groupMatch = isRecommendGroup;
-            else if (!isRecommendGroup) groupMatch = this.selectedGroup === groupName;
+            const isAllGroup = groupName === "all";
+
+            // 分组匹配（修复：all 时匹配所有）
+            let groupMatch = true;
+            if (this.selectedGroup === "recommend") {
+              groupMatch = isRecommendGroup;
+            } else if (this.selectedGroup === "all") {
+              groupMatch = isAllGroup;
+            } else {
+              groupMatch = !isRecommendGroup && !isAllGroup && this.selectedGroup === groupName;
+            }
 
             let groupHasVisible = false;
 
@@ -485,11 +580,16 @@ const PER_PAGE = 20;
               if (matched) groupHasVisible = true;
             });
 
-            section.style.display =
-              groupMatch && groupHasVisible ? "" : "none";
+            // 显示：移除 hidden class（tailwind display:none）并清空 inline display
+            if (groupMatch && groupHasVisible) {
+              section.classList.remove("hidden");
+              section.style.display = "";
+            } else {
+              section.classList.add("hidden");
+              section.style.display = "none";
+            }
           });
 
-          // 重置分页到第 1 页并重新渲染
           Object.keys(PAGES).forEach((k) => (PAGES[k].current = 1));
           initPagination();
 
@@ -508,6 +608,7 @@ const PER_PAGE = 20;
 
     // ========== 初始化 ==========
     function init() {
+      renderAllGroup();
       applyRecommendState();
       renderRecommendGroup();
       initPagination();
@@ -519,45 +620,6 @@ const PER_PAGE = 20;
 </MainGridLayout>
 
 <style>
-  /* 纯文本模式表格布局：推荐-状态-类型-书名-作者-章节数-阅读章节数 */
-  .qidian-text-table {
-    display: flex;
-    flex-direction: column;
-    border: 1px solid var(--line-divider);
-    border-radius: 0.75rem;
-    overflow: hidden;
-  }
-
-  .qidian-text-row {
-    display: grid;
-    grid-template-columns: 2.5rem 2.5rem 4.5rem minmax(0, 1fr) 7rem 4.5rem 4.5rem;
-    gap: 0.5rem;
-    align-items: center;
-    padding: 0.4rem 0.75rem;
-    font-size: 0.8125rem;
-    color: var(--text-75, #52525b);
-    border-bottom: 1px solid var(--line-divider);
-  }
-
-  .qidian-text-row:last-child {
-    border-bottom: none;
-  }
-
-  .qidian-text-row:not(.qidian-text-head):hover {
-    background: color-mix(in oklab, var(--primary) 6%, transparent);
-  }
-
-  .qidian-text-head {
-    font-weight: 600;
-    background: var(--card-bg-hover, rgba(0, 0, 0, 0.03));
-    color: var(--text-90, #18181b);
-  }
-
-  .qidian-text-cat,
-  .qidian-text-num {
-    color: var(--text-75, #52525b);
-  }
-
   /* 放大纯文本模式的推荐星星 */
   .qidian-text-row [data-recommend-text] {
     font-size: 1.25rem;
@@ -648,5 +710,57 @@ const PER_PAGE = 20;
 
   .qidian-pg-btn.qidian-pg-nav:hover:not(:disabled):not(.active) {
     color: var(--primary);
+  }
+
+  /* 纯文本表格（全局，供动态渲染的推荐/全部视图使用） */
+  .qidian-text-table {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid var(--line-divider);
+    border-radius: 0.75rem;
+    overflow: hidden;
+  }
+
+  .qidian-text-row {
+    display: grid;
+    grid-template-columns: 2.5rem 2.5rem 4.5rem minmax(0, 1fr) 7rem 4.5rem 4.5rem;
+    gap: 0.5rem;
+    align-items: center;
+    padding: 0.4rem 0.75rem;
+    font-size: 0.8125rem;
+    color: var(--text-75, #52525b);
+    border-bottom: 1px solid var(--line-divider);
+  }
+
+  .qidian-text-row:last-child {
+    border-bottom: none;
+  }
+
+  .qidian-text-row:not(.qidian-text-head):hover {
+    background: color-mix(in oklab, var(--primary) 6%, transparent);
+  }
+
+  .qidian-text-head {
+    font-weight: 600;
+    background: var(--card-bg-hover, rgba(0, 0, 0, 0.03));
+    color: var(--text-90, #18181b);
+  }
+
+  .qidian-text-cat,
+  .qidian-text-num {
+    color: var(--text-75, #52525b);
+  }
+
+  .qidian-text-num {
+    font-variant-numeric: tabular-nums;
+  }
+
+  @media (max-width: 767px) {
+    .qidian-text-row {
+      grid-template-columns: 1.75rem 1.75rem 3.5rem minmax(0, 1fr) 5rem;
+    }
+    .qidian-text-num {
+      display: none;
+    }
   }
 </style>

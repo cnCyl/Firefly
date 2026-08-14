@@ -100,6 +100,7 @@ export const zh_TW: Translation = {
 	[Key.qidianColAuthor]: "作者",
 	[Key.qidianColLatestChapter]: "目前章節數",
 	[Key.qidianColReadChapter]: "閱讀章節數",
+	[Key.qidianExport]: "導出推薦",
 	[Key.guestbook]: "留言",
 	[Key.guestbookDescription]: "歡迎在這裡留下你的足跡，分享你的想法和建議",
 	[Key.untitled]: "無標題",

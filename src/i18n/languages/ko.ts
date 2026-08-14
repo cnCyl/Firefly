@@ -101,6 +101,7 @@ export const ko: Translation = {
 	[Key.qidianColAuthor]: "Author",
 	[Key.qidianColLatestChapter]: "Latest Ch.",
 	[Key.qidianColReadChapter]: "Read Ch.",
+	[Key.qidianExport]: "Export Rec.",
 	[Key.guestbook]: "방명록",
 	[Key.guestbookDescription]:
 		"이곳에 흔적을 남기고 생각과 제안을 공유해 주세요",

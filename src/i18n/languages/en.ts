@@ -102,6 +102,7 @@ export const en: Translation = {
 	[Key.qidianColAuthor]: "Author",
 	[Key.qidianColLatestChapter]: "Latest Ch.",
 	[Key.qidianColReadChapter]: "Read Ch.",
+	[Key.qidianExport]: "Export Rec.",
 	[Key.guestbook]: "Guestbook",
 	[Key.guestbookDescription]:
 		"Welcome to leave your mark here, share your thoughts and suggestions",

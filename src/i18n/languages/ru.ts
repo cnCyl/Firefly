@@ -102,6 +102,7 @@ export const ru: Translation = {
 	[Key.qidianColAuthor]: "Author",
 	[Key.qidianColLatestChapter]: "Latest Ch.",
 	[Key.qidianColReadChapter]: "Read Ch.",
+	[Key.qidianExport]: "Export Rec.",
 	[Key.guestbook]: "Гостевая книга",
 	[Key.guestbookDescription]:
 		"Добро пожаловать, оставьте свой след здесь, поделитесь своими мыслями и предложениями",

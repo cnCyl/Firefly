@@ -29,6 +29,7 @@ import path from "path";
 const BOOKSHELF_URL = "https://my.qidian.com/bookcase";
 const OUTPUT_FILE = path.join(process.cwd(), "src/constants/qidian-bookshelf.json");
 const DEBUG_FILE = path.join(process.cwd(), "scripts/.qidian-debug.html");
+const AUTH_FILE = path.join(process.cwd(), "scripts/.qidian-auth.json"); // 登录态（Cookie）持久化文件
 const MAX_PAGES = 20; // 单个分组最大翻页数
 
 interface QidianBook {
@@ -140,6 +141,17 @@ async function waitForTableRows(
 	return lastCount;
 }
 
+/** 等待书架表格出现并渲染稳定，返回是否有书架内容（15 秒内未出现视为未登录/非书架页） */
+async function ensureShelfLoaded(page: import("playwright").Page): Promise<boolean> {
+	const hasTable = await page
+		.waitForSelector("#shelfTable tbody tr", { timeout: 15000 })
+		.then(() => true)
+		.catch(() => false);
+	if (!hasTable) return false;
+	await waitForTableRows(page, 1, 1500, 20000);
+	return true;
+}
+
 /** 解析 "k1=v1; k2=v2" 形式的 Cookie 字符串为 Playwright cookie 数组 */
 function parseCookies(cookieStr: string): { name: string; value: string; domain: string; path: string }[] {
 	return cookieStr
@@ -159,6 +171,103 @@ function parseCookies(cookieStr: string): { name: string; value: string; domain:
 		.filter((c): c is { name: string; value: string; domain: string; path: string } => c !== null);
 }
 
+/**
+ * 尝试用账号密码自动登录起点（尽力而为）
+ * 注意：起点登录可能弹出图形/滑块验证码，遇到验证码时无法全自动，需人工在窗口中完成。
+ */
+async function tryAutoLogin(
+	page: import("playwright").Page,
+	username: string,
+	password: string,
+): Promise<boolean> {
+	try {
+		console.log("尝试用账号密码自动登录...");
+
+		// 等待登录表单出现
+		await page.waitForSelector('input[type="password"]', { timeout: 15000 }).catch(() => {});
+
+		// 用户名 / 手机号输入框（按常见选择器依次尝试）
+		const userSelectors = [
+			'input[type="text"]',
+			'input[name*="user"]',
+			'input[id*="user"]',
+			'input[name*="phone"]',
+			'input[name*="account"]',
+			'input[placeholder*="手机"]',
+			'input[placeholder*="账号"]',
+			'input[placeholder*="用户名"]',
+		];
+		let filled = false;
+		for (const sel of userSelectors) {
+			const el = page.locator(sel).first();
+			if ((await el.count()) > 0) {
+				await el.fill(username);
+				filled = true;
+				break;
+			}
+		}
+		if (!filled) {
+			console.log("未找到用户名/手机号输入框，自动登录失败（请改用手动登录）");
+			return false;
+		}
+
+		// 密码输入框
+		const pwdOk = await page
+			.fill('input[type="password"]', password)
+			.then(() => true)
+			.catch(() => {
+				console.log("未找到密码输入框，自动登录失败");
+				return false;
+			});
+		if (!pwdOk) return false;
+
+		// 点击登录按钮
+		const btnSelectors = [
+			'button[type="submit"]',
+			'a[class*="login"]',
+			'button[class*="login"]',
+			'[class*="login-btn"]',
+			'.btn-login',
+			'button:has-text("登录")',
+		];
+		for (const sel of btnSelectors) {
+			const el = page.locator(sel).first();
+			if ((await el.count()) > 0) {
+				await el.click().catch(() => {});
+				break;
+			}
+		}
+
+		// 等待登录跳转（若出现验证码则需人工处理）
+		await page.waitForTimeout(6000);
+
+		const ok = await page
+			.evaluate(() => /my\.qidian\.com\/bookcase/i.test(window.location.href))
+			.catch(() => false);
+		if (ok) {
+			console.log("✅ 账号密码自动登录成功");
+		} else {
+			console.log("自动登录后未检测到书架页（可能遇到验证码或选择器不匹配），请手动完成登录");
+			// 保存登录页 HTML 便于排查
+			try {
+				await page.content().then((h) =>
+					import("node:fs").then((fs) =>
+						fs.promises.writeFile(
+							path.join(process.cwd(), "scripts/.qidian-login-debug.html"),
+							h,
+							"utf-8",
+						),
+					),
+				);
+			} catch { /* ignore */ }
+		}
+		return ok;
+	} catch (e) {
+		console.log("自动登录异常：", e instanceof Error ? e.message : e);
+		return false;
+	}
+}
+
 async function main() {
 	// 动态加载 playwright（未安装时给出提示）
 	let playwright: typeof import("playwright");
@@ -173,31 +282,65 @@ async function main() {
 	}
 
 	const cookieStr = process.env.QIDIAN_COOKIE || "";
-	const interactive = !cookieStr;
+	// 账号密码自动登录（可选）
+	const qidianUsername = process.env.QIDIAN_USERNAME || "";
+	const qidianPassword = process.env.QIDIAN_PASSWORD || "";
+	// 是否已有保存的登录态
+	let hasSavedAuth = false;
+	try {
+		await fs.access(AUTH_FILE);
+		hasSavedAuth = true;
+		console.log("检测到已保存的登录态（scripts/.qidian-auth.json）");
+	} catch {
+		/* 无登录态文件 */
+	}
 
-	console.log(
-		interactive
-			? "== 交互模式：将打开浏览器窗口，请手动登录起点中文网 =="
-			: "== Cookie 模式：使用环境变量 QIDIAN_COOKIE 抓取 ==",
-	);
+	// 登录检测函数
+	const checkLoggedIn = async (p: import("playwright").Page): Promise<boolean> => {
+		try {
+			return await p.evaluate(() => {
+				const url = window.location.href;
+				const onShelf = /my\.qidian\.com\/bookcase/i.test(url);
+				const hasBooks =
+					document.querySelectorAll(
+						'#shelfTable tbody tr, a[href*="/book/"]',
+					).length > 0;
+				return onShelf && hasBooks;
+			});
+		} catch {
+			return false;
+		}
+	};
 
-	const browser = await playwright.chromium.launch({
-		headless: !interactive,
-		// 绕过反爬的一些常规参数
-		args: [
-			"--disable-blink-features=AutomationControlled",
-			"--no-sandbox",
-		],
-	});
+	let browser: import("playwright").Browser | null = null;
+	let context: import("playwright").BrowserContext | null = null;
+	let page: import("playwright").Page | null = null;
+	let loggedIn = false;
 
-	const context = await browser.newContext({
-		userAgent:
-			"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
-		locale: "zh-CN",
-	});
+	const launchBrowser = async (headless: boolean) => {
+		const b = await playwright.chromium.launch({
+			headless,
+			// 绕过反爬的一些常规参数
+			args: [
+				"--disable-blink-features=AutomationControlled",
+				"--no-sandbox",
+			],
+		});
+		const ctx = await b.newContext({
+			userAgent:
+				"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+			locale: "zh-CN",
+			...(hasSavedAuth ? { storageState: AUTH_FILE } : {}),
+		});
+		return { b, ctx };
+	};
 
-	// 注入 cookie（Cookie 模式）
+	// ---- 模式 1：Cookie 模式（环境变量 QIDIAN_COOKIE，全程无头）----
 	if (cookieStr) {
+		console.log("== Cookie 模式：使用环境变量 QIDIAN_COOKIE 抓取 ==");
+		const { b, ctx } = await launchBrowser(true);
+		browser = b;
+		context = ctx;
 		const cookies = parseCookies(cookieStr);
 		if (cookies.length === 0) {
 			console.error("QIDIAN_COOKIE 解析失败，请检查格式（应为 k=v; k2=v2 形式）");
@@ -206,43 +349,82 @@ async function main() {
 		}
 		await context.addCookies(cookies);
 		console.log(`已注入 ${cookies.length} 个 Cookie`);
+		page = await context.newPage();
+		await page.goto(BOOKSHELF_URL, { waitUntil: "domcontentloaded", timeout: 60000 }).catch(() => {});
+		await ensureShelfLoaded(page);
+		loggedIn = await checkLoggedIn(page);
+		if (!loggedIn) {
+			console.error("未检测到有效登录态，请检查 QIDIAN_COOKIE 或改用交互模式");
+			await browser.close();
+			process.exit(1);
+		}
 	}
 
-	const page = await context.newPage();
-
-	// 交互模式：打开浏览器并等待用户手动登录
-	if (interactive) {
-		console.log("浏览器已打开，请在窗口中登录起点中文网（可手动打开书架页确认）...");
-		await page.goto(BOOKSHELF_URL, { waitUntil: "domcontentloaded", timeout: 60000 }).catch(() => {
-			console.log("书架页跳转中（可能已重定向到登录页），等待登录...");
-		});
-
-		// 稳健轮询等待登录完成：每 2 秒检查一次，最多等待 3 分钟
-		const deadline = Date.now() + 180000;
-		let loggedIn = false;
-		while (Date.now() < deadline) {
-			try {
-				loggedIn = await page.evaluate(() => {
-					const url = window.location.href;
-					const onShelf = /my\.qidian\.com\/bookcase/i.test(url);
-					const hasBooks =
-						document.querySelectorAll(
-							'#shelfTable tbody tr, a[href*="/book/"]',
-						).length > 0;
-					return onShelf && hasBooks;
-				});
-			} catch {
-				// 页面正在跳转/加载，忽略本次检查
-			}
-			if (loggedIn) break;
-			await page.waitForTimeout(2000);
-		}
-
+	// ---- 模式 2：登录态模式（无头验证，有效则全程免登录无窗口）----
+	if (!loggedIn && hasSavedAuth && !cookieStr) {
+		console.log("== 尝试使用已保存的登录态（无头免登录）==");
+		const { b, ctx } = await launchBrowser(true);
+		browser = b;
+		context = ctx;
+		page = await context.newPage();
+		await page.goto(BOOKSHELF_URL, { waitUntil: "domcontentloaded", timeout: 60000 }).catch(() => {});
+		await ensureShelfLoaded(page);
+		loggedIn = await checkLoggedIn(page);
 		if (loggedIn) {
-			console.log("检测到登录完成，书架已可访问，继续抓取...");
+			console.log("✅ 登录态有效，免登录直接抓取（无浏览器窗口）");
 		} else {
-			console.log("等待超时（3 分钟）或未检测到书架内容，尝试直接抓取当前页面...");
+			console.log("登录态已过期，需要重新登录...");
+			await browser.close();
+			browser = null;
+			context = null;
+			page = null;
 		}
+	}
+
+	// ---- 模式 3：交互模式（有头窗口，账号密码自动登录 → 手动登录）----
+	if (!loggedIn && !cookieStr) {
+		console.log("== 交互模式：将打开浏览器窗口 ==");
+		const { b, ctx } = await launchBrowser(false);
+		browser = b;
+		context = ctx;
+		page = await context.newPage();
+		await page.goto(BOOKSHELF_URL, { waitUntil: "domcontentloaded", timeout: 60000 }).catch(() => {});
+		await ensureShelfLoaded(page);
+
+		// 账号密码自动登录（配置了 QIDIAN_USERNAME / QIDIAN_PASSWORD 时）
+		if (qidianUsername && qidianPassword) {
+			loggedIn = await tryAutoLogin(page, qidianUsername, qidianPassword);
+		}
+
+		// 手动登录：轮询等待用户在浏览器窗口完成登录
+		if (!loggedIn) {
+			console.log("浏览器已打开，请在窗口中登录起点中文网（可手动打开书架页确认）...");
+			const deadline = Date.now() + 180000;
+			while (Date.now() < deadline && !loggedIn) {
+				await page.waitForTimeout(2000);
+				loggedIn = await checkLoggedIn(page);
+			}
+			if (loggedIn) {
+				console.log("检测到登录完成，书架已可访问，继续抓取...");
+			} else {
+				console.log("等待超时（3 分钟）或未检测到书架内容，尝试直接抓取当前页面...");
+			}
+		}
+	}
+
+	// 登录成功则保存登录态（下次免登录）
+	if (loggedIn && context) {
+		try {
+			await context.storageState({ path: AUTH_FILE });
+			console.log("✅ 登录态已保存到 scripts/.qidian-auth.json（下次抓取免登录）");
+		} catch (e) {
+			console.log("登录态保存失败：", e);
+		}
+	}
+
+	if (!loggedIn || !browser || !context || !page) {
+		console.error("未能完成登录，无法抓取。请检查登录态或网络。");
+		process.exit(1);
 	}
 
 	// ---- 抓取全部分组（自动翻页 + 自动发现分组）----

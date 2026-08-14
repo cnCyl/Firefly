@@ -1,9 +1,16 @@
 import qidianBookshelf from "@/constants/qidian-bookshelf.json";
+import qidianRecommend from "@/constants/qidian-recommend.json";
 import type { QidianBook, QidianBookshelfData } from "@/types/qidianConfig";
 
 // 读取起点书架数据（由 scripts/fetch-qidian-bookshelf.ts 构建时生成）
 export function getQidianBookshelf(): QidianBookshelfData {
 	return qidianBookshelf as QidianBookshelfData;
+}
+
+// 读取持久化的推荐书籍 URL 列表（src/constants/qidian-recommend.json）
+export function getQidianRecommendedUrls(): string[] {
+	const data = qidianRecommend as { recommended?: string[] };
+	return Array.isArray(data?.recommended) ? data.recommended : [];
 }
 
 // 书架是否为空（无分组或全部分组无书）

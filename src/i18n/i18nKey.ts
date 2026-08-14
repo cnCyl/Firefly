@@ -135,6 +135,7 @@ enum I18nKey {
 	qidianColAuthor = "qidianColAuthor",
 	qidianColLatestChapter = "qidianColLatestChapter",
 	qidianColReadChapter = "qidianColReadChapter",
+	qidianExport = "qidianExport",
 
 	// 番组计划筛选和状态文本
 	bangumiTitle = "bangumiTitle",

@@ -101,6 +101,7 @@ export const ja: Translation = {
 	[Key.qidianColAuthor]: "Author",
 	[Key.qidianColLatestChapter]: "Latest Ch.",
 	[Key.qidianColReadChapter]: "Read Ch.",
+	[Key.qidianExport]: "Export Rec.",
 	[Key.guestbook]: "ゲストブック",
 	[Key.guestbookDescription]:
 		"ここに足跡を残して、あなたの考えや提案を共有してください",

@@ -100,6 +100,7 @@ export const zh_CN: Translation = {
 	[Key.qidianColAuthor]: "作者",
 	[Key.qidianColLatestChapter]: "目前章节数",
 	[Key.qidianColReadChapter]: "阅读章节数",
+	[Key.qidianExport]: "导出推荐",
 
 
 	[Key.guestbook]: "留言",

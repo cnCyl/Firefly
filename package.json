@@ -17,7 +17,8 @@
     "lint": "biome check --write ./src",
     "preinstall": "npx only-allow pnpm",
     "lqips": "npx tsx scripts/generate-lqips.ts",
-    "fetch-qidian": "npx tsx scripts/fetch-qidian-bookshelf.ts"
+    "fetch-qidian": "npx tsx scripts/fetch-qidian-bookshelf.ts",
+    "update-qidian": "node scripts/update-qidian.mjs"
   },
   "dependencies": {
     "@astrojs/check": "^0.9.9",
