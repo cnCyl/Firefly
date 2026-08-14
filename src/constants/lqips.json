@@ -33,5 +33,13 @@
   "src:content/posts/images/1.avif": "b5b0b3bcb6bbe0e0df",
   "src:content/posts/guide/cover.avif": "c8bca9dde6d2babfb5",
   "src:assets/images/logo/firefly-light.png": "000000000000000000",
-  "src:assets/images/logo/firefly-dark.png": "ffffffffffffffffff"
+  "src:assets/images/logo/firefly-dark.png": "ffffffffffffffffff",
+  "src:assets/images/tx.jpg": "a392888e827689705d",
+  "public:images/study/26081403.png": "040405030001000000",
+  "public:images/study/26081402.png": "f7f7f8f6f6f6f7f7f7",
+  "public:images/study/26081401.png": "030304000000000000",
+  "public:images/study/26081203.png": "1d1e1d0b0b0b030403",
+  "public:images/study/26081202.png": "2222221818183d3e3e",
+  "public:images/study/26081201.png": "0f0f0f000000000000",
+  "public:images/interview/26081404.png": "e8e7e9f7f6f6f8f8f9"
 }
