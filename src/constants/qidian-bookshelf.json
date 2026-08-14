@@ -1,5 +1,5 @@
 {
-	"fetchedAt": "2026-08-14T16:35:42.954Z",
+	"fetchedAt": "2026-08-14T17:05:02.714Z",
 	"groups": [
 		{
 			"name": "默认分组",
@@ -169,6 +169,18 @@
 					"readChapterNum": 335
 				},
 				{
+					"title": "我加载了神秘学面板",
+					"author": "雨中有秋云",
+					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1048499963/180",
+					"url": "https://www.qidian.com/book/1048499963/",
+					"category": "奇幻",
+					"lastChapter": "第480章 强制退出按钮",
+					"updateStatus": "有更新",
+					"readProgress": "读至第378章 没人是傻子",
+					"lastChapterNum": 480,
+					"readChapterNum": 378
+				},
+				{
 					"title": "我满级天师，你让我进规则怪谈？",
 					"author": "落叶魔王",
 					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1037114325/180",
@@ -305,18 +317,6 @@
 					"readProgress": "读至第422章 目标是宝可梦大师！",
 					"lastChapterNum": 615,
 					"readChapterNum": 422
-				},
-				{
-					"title": "我加载了神秘学面板",
-					"author": "雨中有秋云",
-					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1048499963/180",
-					"url": "https://www.qidian.com/book/1048499963/",
-					"category": "奇幻",
-					"lastChapter": "第479章 你不请达人，我请！",
-					"updateStatus": "有更新",
-					"readProgress": "读至第378章 没人是傻子",
-					"lastChapterNum": 479,
-					"readChapterNum": 378
 				},
 				{
 					"title": "要当总统了，你告诉我是纸牌屋？",
@@ -2374,7 +2374,9 @@
 					"category": "奇幻",
 					"lastChapter": "第282章 逃亡",
 					"updateStatus": "有更新",
-					"lastChapterNum": 282
+					"readProgress": "读至第99章 一步快、步步快！（1/1）",
+					"lastChapterNum": 282,
+					"readChapterNum": 99
 				},
 				{
 					"title": "华娱从男模开始",
