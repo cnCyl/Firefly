@@ -84,18 +84,28 @@ const PER_PAGE = 20;
         <>
           <!-- 搜索框 + 分组标签筛选 -->
           <qidian-filter class="mb-6">
-            <div class="relative mb-3">
-              <Icon
-                is:inline
-                name="material-symbols:search"
-                class="absolute left-3 top-1/2 -translate-y-1/2 text-neutral-400 dark:text-neutral-500 text-lg pointer-events-none"
-              />
-              <input
-                type="text"
-                data-search
-                placeholder={i18n(I18nKey.qidianSearch)}
-                class="w-full pl-10 pr-4 py-2.5 rounded-xl border border-(--line-divider) bg-transparent text-neutral-900 dark:text-neutral-100 placeholder-neutral-400 dark:placeholder-neutral-500 focus:border-(--primary) focus:ring-1 focus:ring-(--primary) outline-none transition-all duration-200 text-sm"
-              />
+            <div class="flex gap-2 mb-3">
+              <select
+                data-search-type
+                title="搜索方式"
+                class="qidian-search-type shrink-0 h-[2.625rem] px-3 rounded-xl border border-(--line-divider) bg-transparent text-neutral-900 dark:text-neutral-100 text-sm outline-none focus:border-(--primary) cursor-pointer"
+              >
+                <option value="title">{i18n(I18nKey.qidianColTitle)}</option>
+                <option value="author">{i18n(I18nKey.qidianColAuthor)}</option>
+              </select>
+              <div class="relative flex-1">
+                <Icon
+                  is:inline
+                  name="material-symbols:search"
+                  class="absolute left-3 top-1/2 -translate-y-1/2 text-neutral-400 dark:text-neutral-500 text-lg pointer-events-none"
+                />
+                <input
+                  type="text"
+                  data-search
+                  placeholder={i18n(I18nKey.qidianSearch)}
+                  class="w-full pl-10 pr-4 py-2.5 rounded-xl border border-(--line-divider) bg-transparent text-neutral-900 dark:text-neutral-100 placeholder-neutral-400 dark:placeholder-neutral-500 focus:border-(--primary) focus:ring-1 focus:ring-(--primary) outline-none transition-all duration-200 text-sm"
+                />
+              </div>
             </div>
             <div class="flex flex-wrap gap-2">
               <button
@@ -477,46 +487,53 @@ const PER_PAGE = 20;
         const key = section.dataset.groupName || section.id || "unknown";
         const items = Array.from(section.querySelectorAll(".qidian-page-item"));
         const pagEl = section.querySelector(".qidian-pagination");
-        const total = items.length;
-        const pages = Math.max(1, Math.ceil(total / PER_PAGE));
         if (!pagEl) return;
 
-        const state = PAGES[key] || (PAGES[key] = { current: 1 });
+        const state = PAGES[key] || (PAGES[key] = { current: 1, pages: 1 });
 
         function render() {
-          if (state.current > pages) state.current = pages;
+          // 只对匹配项分页：搜索时可在整个分组内翻页查看所有匹配结果
+          const matchedItems = items.filter(
+            (el) => el.dataset.searchMatch !== "false",
+          );
+          state.pages = Math.max(1, Math.ceil(matchedItems.length / PER_PAGE));
+          if (state.current > state.pages) state.current = state.pages;
           if (state.current < 1) state.current = 1;
 
-          items.forEach((el, i) => {
-            const page = Math.floor(i / PER_PAGE) + 1;
-            const matched = el.dataset.searchMatch !== "false";
-            el.style.display =
-              page === state.current && matched ? "" : "none";
+          // 未匹配项一律隐藏
+          items.forEach((el) => {
+            if (el.dataset.searchMatch === "false") el.style.display = "none";
           });
 
-          if (pages <= 1) {
+          // 匹配项按当前页显示
+          matchedItems.forEach((el, i) => {
+            const page = Math.floor(i / PER_PAGE) + 1;
+            el.style.display = page === state.current ? "" : "none";
+          });
+
+          if (state.pages <= 1) {
             pagEl.innerHTML = `<span class="qidian-pg-info">第 1/1 页</span>`;
             return;
           }
           let html = `<button data-pg-prev class="qidian-pg-btn qidian-pg-nav" ${state.current <= 1 ? "disabled" : ""}>上一页</button>`;
-          for (let p = 1; p <= pages; p++) {
-            if (pages > 9 && p > 2 && p < pages - 1 && Math.abs(p - state.current) > 2) {
-              if (p === 3 || p === pages - 2) html += `<span class="qidian-pg-ellipsis">…</span>`;
+          for (let p = 1; p <= state.pages; p++) {
+            if (state.pages > 9 && p > 2 && p < state.pages - 1 && Math.abs(p - state.current) > 2) {
+              if (p === 3 || p === state.pages - 2) html += `<span class="qidian-pg-ellipsis">…</span>`;
               continue;
             }
             html += `<button data-pg-num="${p}" class="qidian-pg-btn ${p === state.current ? "active" : ""}">${p}</button>`;
           }
-          html += `<button data-pg-next class="qidian-pg-btn qidian-pg-nav" ${state.current >= pages ? "disabled" : ""}>下一页</button>`;
-          html += `<span class="qidian-pg-info">第 ${state.current}/${pages} 页</span>`;
+          html += `<button data-pg-next class="qidian-pg-btn qidian-pg-nav" ${state.current >= state.pages ? "disabled" : ""}>下一页</button>`;
+          html += `<span class="qidian-pg-info">第 ${state.current}/${state.pages} 页</span>`;
           pagEl.innerHTML = html;
         }
 
         pagEl.onclick = (e) => {
           const btn = e.target.closest("button");
           if (!btn || btn.disabled) return;
-          if (btn.dataset.pgNum) state.current = parseInt(btn.dataset.pgNum, 10);
-          else if (btn.dataset.pgPrev) state.current = Math.max(1, state.current - 1);
-          else if (btn.dataset.pgNext) state.current = Math.min(pages, state.current + 1);
+          if (btn.dataset.pgNum !== undefined) state.current = parseInt(btn.dataset.pgNum, 10);
+          else if (btn.dataset.pgPrev !== undefined) state.current = Math.max(1, state.current - 1);
+          else if (btn.dataset.pgNext !== undefined) state.current = Math.min(state.pages, state.current + 1);
           render();
         };
 
@@ -533,6 +550,8 @@ const PER_PAGE = 20;
           this.addEventListener("click", this.handleClick);
           const input = this.querySelector("[data-search]");
           if (input) input.addEventListener("input", () => this.applyFilters());
+          const typeSel = this.querySelector("[data-search-type]");
+          if (typeSel) typeSel.addEventListener("change", () => this.applyFilters());
           this.applyFilters();
         }
 
@@ -554,6 +573,8 @@ const PER_PAGE = 20;
           if (!container) return;
           const input = this.querySelector("[data-search]");
           const query = (input?.value || "").toLowerCase().trim();
+          // 搜索方式：title=按书名，author=按作者
+          const searchType = this.querySelector("[data-search-type]")?.value || "title";
 
           container.querySelectorAll(".qidian-group").forEach((section) => {
             const groupName = section.dataset.groupName || "";
@@ -575,7 +596,12 @@ const PER_PAGE = 20;
             section.querySelectorAll(".qidian-page-item").forEach((item) => {
               const title = item.querySelector("h3, .qidian-text-title")?.textContent?.toLowerCase() || "";
               const author = item.querySelector("p, .qidian-text-author")?.textContent?.toLowerCase() || "";
-              const matched = !query || title.includes(query) || author.includes(query);
+              // 按选择的搜索方式匹配
+              let matched = true;
+              if (query) {
+                if (searchType === "author") matched = author.includes(query);
+                else matched = title.includes(query);
+              }
               item.dataset.searchMatch = matched ? "true" : "false";
               if (matched) groupHasVisible = true;
             });
