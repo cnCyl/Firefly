@@ -4,7 +4,7 @@ published: 2026-08-09 21:01:30
 description: docker学习计划
 tags: [学习计划, 运维, docker]
 category: 学习笔记
-slug: study-docker-01
+slug: study_docker_01
 image: api
 author: ylxs
 ---
