@@ -1,29 +1,31 @@
 {
-	"fetchedAt": "2026-08-31T20:46:24.182Z",
+	"fetchedAt": "2026-09-13T14:47:17.135Z",
 	"groups": [
 		{
 			"name": "默认分组",
 			"books": [
-				{
-					"title": "在美漫当心灵导师的日子",
-					"author": "遇牧烧绳",
-					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1032768092/180",
-					"url": "https://www.qidian.com/book/1032768092/",
-					"category": "轻小说",
-					"lastChapter": "第五千零六十章 斗士的命运（六）",
-					"updateStatus": "有更新",
-					"readProgress": "读至回答最近大家好奇的有关“斩杀线”的问题",
-					"lastChapterNum": 5060
-				},
 				{
 					"title": "神话版三国",
 					"author": "坟土荒草",
 					"cover": "https://bookcover.yuewen.com/qdbimg/349573/3223937/180",
 					"url": "https://www.qidian.com/book/3223937/",
 					"category": "历史",
-					"lastChapter": "番外·四百年风霜中篇·王侯将相",
-					"updateStatus": "无更新",
-					"readProgress": "读至番外·四百年风霜中篇·王侯将相"
+					"lastChapter": "第四千九百八十二章 未来之事自有未来之人！",
+					"updateStatus": "有更新",
+					"readProgress": "读至第四千九百七十七章 且待之后",
+					"lastChapterNum": 4982,
+					"readChapterNum": 4977
+				},
+				{
+					"title": "在美漫当心灵导师的日子",
+					"author": "遇牧烧绳",
+					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1032768092/180",
+					"url": "https://www.qidian.com/book/1032768092/",
+					"category": "轻小说",
+					"lastChapter": "第五千零九十六章 斗士的命运（四十二）",
+					"updateStatus": "有更新",
+					"readProgress": "读至回答最近大家好奇的有关“斩杀线”的问题",
+					"lastChapterNum": 5096
 				}
 			]
 		},
@@ -36,116 +38,10 @@
 					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1041377890/180",
 					"url": "https://www.qidian.com/book/1041377890/",
 					"category": "游戏",
-					"lastChapter": "第745章 各自奔赴，顶峰相逢（求月票）",
+					"lastChapter": "完本感言",
 					"updateStatus": "有更新",
-					"readProgress": "读至第735章 笔落终章，时序倒转",
-					"lastChapterNum": 745,
-					"readChapterNum": 735
-				},
-				{
-					"title": "1996：从行政总厨开始",
-					"author": "风雪钓鱼人",
-					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1048010685/180",
-					"url": "https://www.qidian.com/book/1048010685/",
-					"category": "都市",
-					"lastChapter": "第727章 全香港最贵的女人",
-					"updateStatus": "无更新",
-					"readProgress": "读至第727章 全香港最贵的女人",
-					"lastChapterNum": 727,
-					"readChapterNum": 727
-				},
-				{
-					"title": "我真不用重生啊",
-					"author": "李暮歌",
-					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1048904887/180",
-					"url": "https://www.qidian.com/book/1048904887/",
-					"category": "都市",
-					"lastChapter": "第271章 姜老师，注意隐私！",
-					"updateStatus": "有更新",
-					"readProgress": "读至第267章 扪心自问，这么厉害的一个家伙，自己去给他当三姨太，很丢人吗",
-					"lastChapterNum": 271,
-					"readChapterNum": 267
-				},
-				{
-					"title": "天才只是我的门槛！",
-					"author": "碳烤竹笋",
-					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1048960312/180",
-					"url": "https://www.qidian.com/book/1048960312/",
-					"category": "都市",
-					"lastChapter": "第342章 测试防空系统，天空的焰火（求月票））",
-					"updateStatus": "无更新",
-					"readProgress": "读至第342章 测试防空系统，天空的焰火（求月票））",
-					"lastChapterNum": 342,
-					"readChapterNum": 342
-				},
-				{
-					"title": "法爷，冒险者和女人",
-					"author": "雾尽开新阳",
-					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1049674923/180",
-					"url": "https://www.qidian.com/book/1049674923/",
-					"category": "轻小说",
-					"lastChapter": "【月底求月票】",
-					"updateStatus": "有更新",
-					"readProgress": "读至第97章 ：控分【1/3求月票】",
-					"readChapterNum": 97
-				},
-				{
-					"title": "法师归来，速通地球！",
-					"author": "没想好吃啥",
-					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1050033909/180",
-					"url": "https://www.qidian.com/book/1050033909/",
-					"category": "科幻",
-					"lastChapter": "月末总结及月票加更",
-					"updateStatus": "无更新",
-					"readProgress": "读至月末总结及月票加更"
-				},
-				{
-					"title": "华娱：专捧小花的顶流导演",
-					"author": "两猫养一人",
-					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1048582062/180",
-					"url": "https://www.qidian.com/book/1048582062/",
-					"category": "都市",
-					"lastChapter": "第179章 【娜扎玫瑰色】口红！武则田的野望！",
-					"updateStatus": "有更新",
-					"readProgress": "读至第177章 《749局》与《杀手的购物中心》！船妹非要给我剪指甲",
-					"lastChapterNum": 179,
-					"readChapterNum": 177
-				},
-				{
-					"title": "黑科技：从单兵隐形装备开始",
-					"author": "昭灵驷玉",
-					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1049172592/180",
-					"url": "https://www.qidian.com/book/1049172592/",
-					"category": "科幻",
-					"lastChapter": "第159章 时间窗口",
-					"updateStatus": "无更新",
-					"readProgress": "读至第159章 时间窗口",
-					"lastChapterNum": 159,
-					"readChapterNum": 159
-				},
-				{
-					"title": "炼气士不死于无限",
-					"author": "二重渔者",
-					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1049986071/180",
-					"url": "https://www.qidian.com/book/1049986071/",
-					"category": "轻小说",
-					"lastChapter": "第十四章 有孽蛟处斩孽蛟",
-					"updateStatus": "无更新",
-					"readProgress": "读至第十四章 有孽蛟处斩孽蛟",
-					"lastChapterNum": 14,
-					"readChapterNum": 14
-				},
-				{
-					"title": "从控股AKB开始，打造偶像帝国",
-					"author": "阳耀日",
-					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1046737848/180",
-					"url": "https://www.qidian.com/book/1046737848/",
-					"category": "都市",
-					"lastChapter": "第130章 我的偶像梦想",
-					"updateStatus": "无更新",
-					"readProgress": "读至第130章 我的偶像梦想",
-					"lastChapterNum": 130,
-					"readChapterNum": 130
+					"readProgress": "读至第749章 终局亦是序章（大结局）",
+					"readChapterNum": 749
 				},
 				{
 					"title": "宅山海",
@@ -153,11 +49,143 @@
 					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1048172826/180",
 					"url": "https://www.qidian.com/book/1048172826/",
 					"category": "轻小说",
-					"lastChapter": "第287章 武道、赛博、朋克",
+					"lastChapter": "第299章 扯虎皮",
 					"updateStatus": "有更新",
-					"readProgress": "读至第286章 群星世界",
-					"lastChapterNum": 287,
-					"readChapterNum": 286
+					"readProgress": "读至第292章 仙骸",
+					"lastChapterNum": 299,
+					"readChapterNum": 292
+				},
+				{
+					"title": "天才只是我的门槛！",
+					"author": "碳烤竹笋",
+					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1048960312/180",
+					"url": "https://www.qidian.com/book/1048960312/",
+					"category": "都市",
+					"lastChapter": "第379章 培养年轻一代，企鹅是一个守法好企业",
+					"updateStatus": "有更新",
+					"readProgress": "读至第378章 苏若华：学海无涯，你对干娘真的好啊",
+					"lastChapterNum": 379,
+					"readChapterNum": 378
+				},
+				{
+					"title": "以圣光之名",
+					"author": "万事皆修",
+					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1046784949/180",
+					"url": "https://www.qidian.com/book/1046784949/",
+					"category": "轻小说",
+					"lastChapter": "第454章：特性增三",
+					"updateStatus": "有更新",
+					"readProgress": "读至第452章：钓鱼",
+					"lastChapterNum": 454,
+					"readChapterNum": 452
+				},
+				{
+					"title": "法爷，冒险者和女人",
+					"author": "雾尽开新阳",
+					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1049674923/180",
+					"url": "https://www.qidian.com/book/1049674923/",
+					"category": "轻小说",
+					"lastChapter": "第152章 ：就这？【1/2、4.7k字大章/晚会十二点左右还有一章】",
+					"updateStatus": "有更新",
+					"readProgress": "读至第133章 ：冒险者活动结束【4.1k字求月票】",
+					"lastChapterNum": 152,
+					"readChapterNum": 133
+				},
+				{
+					"title": "华娱：专捧小花的顶流导演",
+					"author": "两猫养一人",
+					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1048582062/180",
+					"url": "https://www.qidian.com/book/1048582062/",
+					"category": "都市",
+					"lastChapter": "第192章 《妖精古堡2》票房破10亿美金！新天赋到账了！",
+					"updateStatus": "有更新",
+					"readProgress": "读至第189章 7天25亿！什么叫大佬！“水后事件”一句话改写结局！",
+					"lastChapterNum": 192,
+					"readChapterNum": 189
+				},
+				{
+					"title": "1996：从行政总厨开始",
+					"author": "风雪钓鱼人",
+					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1048010685/180",
+					"url": "https://www.qidian.com/book/1048010685/",
+					"category": "都市",
+					"lastChapter": "第30章 层层造势的想法",
+					"updateStatus": "无更新",
+					"readProgress": "读至第30章 层层造势的想法",
+					"lastChapterNum": 30,
+					"readChapterNum": 30
+				},
+				{
+					"title": "炼气士不死于无限",
+					"author": "二重渔者",
+					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1049986071/180",
+					"url": "https://www.qidian.com/book/1049986071/",
+					"category": "轻小说",
+					"lastChapter": "第三十二章 微末仗剑",
+					"updateStatus": "无更新",
+					"readProgress": "读至第三十二章 微末仗剑",
+					"lastChapterNum": 32,
+					"readChapterNum": 32
+				},
+				{
+					"title": "黑科技：从单兵隐形装备开始",
+					"author": "昭灵驷玉",
+					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1049172592/180",
+					"url": "https://www.qidian.com/book/1049172592/",
+					"category": "科幻",
+					"lastChapter": "第174章 排队抢单",
+					"updateStatus": "无更新",
+					"readProgress": "读至第174章 排队抢单",
+					"lastChapterNum": 174,
+					"readChapterNum": 174
+				},
+				{
+					"title": "法师归来，速通地球！",
+					"author": "没想好吃啥",
+					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1050033909/180",
+					"url": "https://www.qidian.com/book/1050033909/",
+					"category": "科幻",
+					"lastChapter": "第54章 ？？？？？",
+					"updateStatus": "无更新",
+					"readProgress": "读至第54章 ？？？？？",
+					"lastChapterNum": 54,
+					"readChapterNum": 54
+				},
+				{
+					"title": "从控股AKB开始，打造偶像帝国",
+					"author": "阳耀日",
+					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1046737848/180",
+					"url": "https://www.qidian.com/book/1046737848/",
+					"category": "都市",
+					"lastChapter": "第156章 吃饱喝足",
+					"updateStatus": "无更新",
+					"readProgress": "读至第156章 吃饱喝足",
+					"lastChapterNum": 156,
+					"readChapterNum": 156
+				},
+				{
+					"title": "我真不用重生啊",
+					"author": "李暮歌",
+					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1048904887/180",
+					"url": "https://www.qidian.com/book/1048904887/",
+					"category": "都市",
+					"lastChapter": "第286章 骗我身子的死渣男，我看错你了！",
+					"updateStatus": "有更新",
+					"readProgress": "读至第272章 这顿饭是我请的，回礼自然也该我一个人拿",
+					"lastChapterNum": 286,
+					"readChapterNum": 272
+				},
+				{
+					"title": "从巫师学徒到万界征服者",
+					"author": "竹围月色",
+					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1048343556/180",
+					"url": "https://www.qidian.com/book/1048343556/",
+					"category": "玄幻",
+					"lastChapter": "第七章 言灵圣树",
+					"updateStatus": "无更新",
+					"readProgress": "读至第七章 言灵圣树",
+					"lastChapterNum": 7,
+					"readChapterNum": 7
 				}
 			]
 		},
@@ -170,23 +198,693 @@
 					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1047464833/180",
 					"url": "https://www.qidian.com/book/1047464833/",
 					"category": "都市",
-					"lastChapter": "第352章 肌腱吻合器数据！",
-					"updateStatus": "无更新",
-					"readProgress": "读至第352章 肌腱吻合器数据！",
-					"lastChapterNum": 352,
-					"readChapterNum": 352
+					"lastChapter": "第366章 道歉与道谢！",
+					"updateStatus": "有更新",
+					"readProgress": "读至第364章 天才思维！",
+					"lastChapterNum": 366,
+					"readChapterNum": 364
 				},
 				{
-					"title": "真实历史模拟游戏",
-					"author": "斩刀人",
-					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1045207104/180",
-					"url": "https://www.qidian.com/book/1045207104/",
-					"category": "历史",
-					"lastChapter": "第620章 神州沉浮？不，是全球霸权争夺",
+					"title": "天生大爱宇智波",
+					"author": "信息交流",
+					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1048557083/180",
+					"url": "https://www.qidian.com/book/1048557083/",
+					"category": "轻小说",
+					"lastChapter": "第353章 那【笼中鸟】封印不是白解除了吗？！",
 					"updateStatus": "有更新",
-					"readProgress": "读至第363章 平定台湾，而后从琉球开始",
-					"lastChapterNum": 620,
-					"readChapterNum": 363
+					"readProgress": "读至第195章 什么最强尾兽，橘皮小狗罢了！",
+					"lastChapterNum": 353,
+					"readChapterNum": 195
+				},
+				{
+					"title": "巨舰横宋：我的物资来自祖国",
+					"author": "伴读小牧童",
+					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1047574891/180",
+					"url": "https://www.qidian.com/book/1047574891/",
+					"category": "历史",
+					"lastChapter": "第509章、矫枉必须过正！",
+					"updateStatus": "有更新",
+					"readProgress": "读至第98章、大胆的干！",
+					"lastChapterNum": 509,
+					"readChapterNum": 98
+				},
+				{
+					"title": "神农道君",
+					"author": "神威校尉",
+					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1039640376/180",
+					"url": "https://www.qidian.com/book/1039640376/",
+					"category": "玄幻",
+					"lastChapter": "第二十一章 ：山猫流浪记",
+					"updateStatus": "有更新",
+					"readProgress": "读至第1章 ：新版本降临！玄黄五巨头聚首！姬姒的新法术！",
+					"lastChapterNum": 21,
+					"readChapterNum": 1
+				},
+				{
+					"title": "1994：菜农逆袭",
+					"author": "野生的冰糖葫芦",
+					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1043993995/180",
+					"url": "https://www.qidian.com/book/1043993995/",
+					"category": "都市",
+					"lastChapter": "第912章 回花城",
+					"updateStatus": "有更新",
+					"readProgress": "读至第863章 小结",
+					"lastChapterNum": 912,
+					"readChapterNum": 863
+				},
+				{
+					"title": "文豪1879：独行法兰西",
+					"author": "长夜风过",
+					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1045279264/180",
+					"url": "https://www.qidian.com/book/1045279264/",
+					"category": "历史",
+					"lastChapter": "第910章 电影，不是这么拍滴！",
+					"updateStatus": "有更新",
+					"readProgress": "读至聊个闲天",
+					"lastChapterNum": 910
+				},
+				{
+					"title": "重生从1993开始",
+					"author": "月阳之涯",
+					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1038540283/180",
+					"url": "https://www.qidian.com/book/1038540283/",
+					"category": "都市",
+					"lastChapter": "第二零一零章 全场消费，卡公子买单",
+					"updateStatus": "有更新",
+					"readProgress": "读至第九十三章 撞车",
+					"lastChapterNum": 0,
+					"readChapterNum": 93
+				},
+				{
+					"title": "龙藏",
+					"author": "烟雨江南",
+					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1038996214/180",
+					"url": "https://www.qidian.com/book/1038996214/",
+					"category": "玄幻",
+					"lastChapter": "第1479章 共主已定",
+					"updateStatus": "有更新",
+					"readProgress": "读至第八十八章 天下无双",
+					"lastChapterNum": 1479,
+					"readChapterNum": 88
+				},
+				{
+					"title": "Z世代艺术家",
+					"author": "起酥面包",
+					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1042685395/180",
+					"url": "https://www.qidian.com/book/1042685395/",
+					"category": "都市",
+					"lastChapter": "第569章 失控",
+					"updateStatus": "有更新",
+					"readProgress": "读至第97章 《苍夜雪》上",
+					"lastChapterNum": 569,
+					"readChapterNum": 97
+				},
+				{
+					"title": "吟游诗人又幻想了",
+					"author": "请叫我鱼右",
+					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1045193869/180",
+					"url": "https://www.qidian.com/book/1045193869/",
+					"category": "奇幻",
+					"lastChapter": "第510章 不死不休（4k求追订）",
+					"updateStatus": "有更新",
+					"readProgress": "读至第112章 遗产（求追订！）",
+					"lastChapterNum": 510,
+					"readChapterNum": 112
+				},
+				{
+					"title": "看好了，法爷是这样玩的！",
+					"author": "小新吹泡泡",
+					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1044012213/180",
+					"url": "https://www.qidian.com/book/1044012213/",
+					"category": "玄幻",
+					"lastChapter": "第九百八十章、乌兰巴托的夜",
+					"updateStatus": "有更新",
+					"readProgress": "读至今天领证去啦~~~~",
+					"lastChapterNum": 980
+				},
+				{
+					"title": "这才是高武！",
+					"author": "小道白霜",
+					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1044837338/180",
+					"url": "https://www.qidian.com/book/1044837338/",
+					"category": "玄幻",
+					"lastChapter": "第620章 太阳教消息",
+					"updateStatus": "有更新",
+					"readProgress": "读至九个月，精品",
+					"lastChapterNum": 620
+				},
+				{
+					"title": "大唐：如何成为玄武门总策划",
+					"author": "见月明",
+					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1046483377/180",
+					"url": "https://www.qidian.com/book/1046483377/",
+					"category": "历史",
+					"lastChapter": "第344章 奇珍异兽",
+					"updateStatus": "有更新",
+					"readProgress": "读至第94章 因人成事",
+					"lastChapterNum": 344,
+					"readChapterNum": 94
+				},
+				{
+					"title": "你这帝国怎么这么像天灾",
+					"author": "三三不喝酒",
+					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1045347846/180",
+					"url": "https://www.qidian.com/book/1045347846/",
+					"category": "轻小说",
+					"lastChapter": "第533章 出事了？",
+					"updateStatus": "有更新",
+					"readProgress": "读至第5章 起源基地",
+					"lastChapterNum": 533,
+					"readChapterNum": 5
+				},
+				{
+					"title": "从海贼开始横推万界",
+					"author": "燕云因陀罗",
+					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1033064951/180",
+					"url": "https://www.qidian.com/book/1033064951/",
+					"category": "轻小说",
+					"lastChapter": "第三千零九十二章 来到海星的格斯等人！",
+					"updateStatus": "有更新",
+					"readProgress": "读至《天上金缴纳通知书》",
+					"lastChapterNum": 3092
+				},
+				{
+					"title": "我，枪神！",
+					"author": "如水意",
+					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1047166699/180",
+					"url": "https://www.qidian.com/book/1047166699/",
+					"category": "都市",
+					"lastChapter": "第541章 别带枪",
+					"updateStatus": "有更新",
+					"readProgress": "读至第164章 只有大方？",
+					"lastChapterNum": 541,
+					"readChapterNum": 164
+				},
+				{
+					"title": "重生的我超有追求",
+					"author": "鲸鱼禅师",
+					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1046796152/180",
+					"url": "https://www.qidian.com/book/1046796152/",
+					"category": "都市",
+					"lastChapter": "395 糟糕的家伙",
+					"updateStatus": "有更新",
+					"readProgress": "读至202 送个鸟"
+				},
+				{
+					"title": "天命之上",
+					"author": "风月",
+					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1039831421/180",
+					"url": "https://www.qidian.com/book/1039831421/",
+					"category": "轻小说",
+					"lastChapter": "第一千零六十四章 坏人（感谢紫衣之王的盟主",
+					"updateStatus": "有更新",
+					"readProgress": "读至第九百三十七章 胜负雷鸣（感谢虎皮猫大人的盟主",
+					"lastChapterNum": 1064,
+					"readChapterNum": 937
+				},
+				{
+					"title": "同时穿越：继承万界遗产",
+					"author": "透明鸽子",
+					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1046194994/180",
+					"url": "https://www.qidian.com/book/1046194994/",
+					"category": "轻小说",
+					"lastChapter": "第829章 我将彻底终结诅咒时代",
+					"updateStatus": "有更新",
+					"readProgress": "读至致亲爱的读者2（12月总结）",
+					"lastChapterNum": 829
+				},
+				{
+					"title": "星渊纪元",
+					"author": "临海墨",
+					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1045849540/180",
+					"url": "https://www.qidian.com/book/1045849540/",
+					"category": "玄幻",
+					"lastChapter": "第589章 玄，一直都很有信心",
+					"updateStatus": "有更新",
+					"readProgress": "读至第438章 一门三尊，终成神灵",
+					"lastChapterNum": 589,
+					"readChapterNum": 438
+				},
+				{
+					"title": "国民律师",
+					"author": "青衫仗剑行天涯",
+					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1047321972/180",
+					"url": "https://www.qidian.com/book/1047321972/",
+					"category": "都市",
+					"lastChapter": "请假一天，电脑桌趴了",
+					"updateStatus": "有更新",
+					"readProgress": "读至月票加更"
+				},
+				{
+					"title": "1979黄金时代",
+					"author": "睡觉会变白",
+					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1039689097/180",
+					"url": "https://www.qidian.com/book/1039689097/",
+					"category": "都市",
+					"lastChapter": "第1446章 回归筹备",
+					"updateStatus": "有更新",
+					"readProgress": "读至第699章 一念之间",
+					"lastChapterNum": 1446,
+					"readChapterNum": 699
+				},
+				{
+					"title": "仙明实录",
+					"author": "全订",
+					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1046425938/180",
+					"url": "https://www.qidian.com/book/1046425938/",
+					"category": "历史",
+					"lastChapter": "请假一天",
+					"updateStatus": "有更新",
+					"readProgress": "读至第二百三十六章 面具",
+					"readChapterNum": 236
+				},
+				{
+					"title": "从斩杀线到华尔街之神",
+					"author": "天天炒牛肉",
+					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1049018603/180",
+					"url": "https://www.qidian.com/book/1049018603/",
+					"category": "都市",
+					"lastChapter": "第206章 建仓贝尔斯登！贝尔斯登84年首次亏损！雷曼兄弟CEO怒斥！",
+					"updateStatus": "有更新",
+					"readProgress": "读至第123章 林顿报告的威力！毕马威审计团队与管理层的对峙！",
+					"lastChapterNum": 206,
+					"readChapterNum": 123
+				},
+				{
+					"title": "东京1991，从银行职员开始",
+					"author": "今日手缚苍龙",
+					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1048796969/180",
+					"url": "https://www.qidian.com/book/1048796969/",
+					"category": "轻小说",
+					"lastChapter": "第344章 万事俱备，只欠东风",
+					"updateStatus": "有更新",
+					"readProgress": "读至第118章 冰山一角【五更求月票】",
+					"lastChapterNum": 344,
+					"readChapterNum": 118
+				},
+				{
+					"title": "桀桀，美警可太好了！",
+					"author": "焰火璀璨",
+					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1048864298/180",
+					"url": "https://www.qidian.com/book/1048864298/",
+					"category": "都市",
+					"lastChapter": "第三百二十章：精神超凡",
+					"updateStatus": "有更新",
+					"readProgress": "读至第二百一十一章：黑畜总是有新节目（求月票）",
+					"lastChapterNum": 320,
+					"readChapterNum": 211
+				},
+				{
+					"title": "综网：从速刷打灰开始的战斗天选",
+					"author": "易伤秋者",
+					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1046368677/180",
+					"url": "https://www.qidian.com/book/1046368677/",
+					"category": "游戏",
+					"lastChapter": "第591章 杀戮天选能办什么事……",
+					"updateStatus": "有更新",
+					"readProgress": "读至第15章 lv3圣骑士（一更！ ）",
+					"lastChapterNum": 591,
+					"readChapterNum": 15
+				},
+				{
+					"title": "旧日恐剧",
+					"author": "三藏的左轮",
+					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1033233344/180",
+					"url": "https://www.qidian.com/book/1033233344/",
+					"category": "科幻",
+					"lastChapter": "第两千九百八十五章 心魔的邀请",
+					"updateStatus": "有更新",
+					"readProgress": "读至第四章 寻求谏言",
+					"readChapterNum": 4
+				},
+				{
+					"title": "1836：我在大英当文豪",
+					"author": "小颗栗子",
+					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1047725301/180",
+					"url": "https://www.qidian.com/book/1047725301/",
+					"category": "历史",
+					"lastChapter": "第332章 全新的谋杀游戏",
+					"updateStatus": "有更新",
+					"readProgress": "读至第209章 难道这还不值得一个爵位吗？",
+					"lastChapterNum": 332,
+					"readChapterNum": 209
+				},
+				{
+					"title": "玩家们的NPC大爹",
+					"author": "玖武珥绮",
+					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1038949630/180",
+					"url": "https://www.qidian.com/book/1038949630/",
+					"category": "轻小说",
+					"lastChapter": "第2886章 尾声……好像忘了什么",
+					"updateStatus": "有更新",
+					"readProgress": "读至第58章第一幕：被诅咒的白银之血",
+					"lastChapterNum": 2886,
+					"readChapterNum": 58
+				},
+				{
+					"title": "末日游戏：我觉醒指挥官天赋",
+					"author": "无能的作者酱",
+					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1045866725/180",
+					"url": "https://www.qidian.com/book/1045866725/",
+					"category": "科幻",
+					"lastChapter": "792 你胆子肥嘟嘟的",
+					"updateStatus": "有更新",
+					"readProgress": "读至178共和国的海军"
+				},
+				{
+					"title": "三塔游戏",
+					"author": "更从心",
+					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1041991346/180",
+					"url": "https://www.qidian.com/book/1041991346/",
+					"category": "科幻",
+					"lastChapter": "第六百六十五章 闻家老宅最后的秘密",
+					"updateStatus": "无更新",
+					"readProgress": "读至首章",
+					"lastChapterNum": 665
+				},
+				{
+					"title": "系统，我真不是苏联学霸",
+					"author": "无机糖",
+					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1049137208/180",
+					"url": "https://www.qidian.com/book/1049137208/",
+					"category": "都市",
+					"lastChapter": "第289章 这是什么阳间招数？",
+					"updateStatus": "有更新",
+					"readProgress": "读至第233章 俄国有些老本还是在的！",
+					"lastChapterNum": 289,
+					"readChapterNum": 233
+				},
+				{
+					"title": "人生激荡四十年",
+					"author": "大侠是你吗",
+					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1037260223/180",
+					"url": "https://www.qidian.com/book/1037260223/",
+					"category": "都市",
+					"lastChapter": "第一千四百零四章 挑拨离间",
+					"updateStatus": "有更新",
+					"readProgress": "读至第四百一十六章 倒霉蛋",
+					"lastChapterNum": 1404,
+					"readChapterNum": 416
+				},
+				{
+					"title": "神豪从逆袭人生开始",
+					"author": "潇潇清枫",
+					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1044505655/180",
+					"url": "https://www.qidian.com/book/1044505655/",
+					"category": "都市",
+					"lastChapter": "第六百一十二章：睡你？没兴趣",
+					"updateStatus": "有更新",
+					"readProgress": "读至第三百九十六章：大刀阔斧的全面改革（4k）",
+					"lastChapterNum": 612,
+					"readChapterNum": 396
+				},
+				{
+					"title": "亡灵法师，召唤055什么鬼？",
+					"author": "卧雪观星",
+					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1045018157/180",
+					"url": "https://www.qidian.com/book/1045018157/",
+					"category": "玄幻",
+					"lastChapter": "第701章 荣光之春 阶级问题 血色斗争（速看）",
+					"updateStatus": "无更新",
+					"readProgress": "读至首章",
+					"lastChapterNum": 701
+				},
+				{
+					"title": "我加载了神秘学面板",
+					"author": "雨中有秋云",
+					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1048499963/180",
+					"url": "https://www.qidian.com/book/1048499963/",
+					"category": "奇幻",
+					"lastChapter": "第515章 带你认门",
+					"updateStatus": "有更新",
+					"readProgress": "读至第378章 没人是傻子",
+					"lastChapterNum": 515,
+					"readChapterNum": 378
+				},
+				{
+					"title": "你的技能很好，现在我也有了",
+					"author": "明前云雾",
+					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1048538381/180",
+					"url": "https://www.qidian.com/book/1048538381/",
+					"category": "玄幻",
+					"lastChapter": "第392章 煌煌天威",
+					"updateStatus": "有更新",
+					"readProgress": "读至第278章 非人类任务方式",
+					"lastChapterNum": 392,
+					"readChapterNum": 278
+				},
+				{
+					"title": "四合院里的读书人",
+					"author": "八零阿涛",
+					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1035253219/180",
+					"url": "https://www.qidian.com/book/1035253219/",
+					"category": "都市",
+					"lastChapter": "3555 长大了，该长点记性了",
+					"updateStatus": "有更新",
+					"readProgress": "读至端午节致读者的一封信"
+				},
+				{
+					"title": "修仙的我却来到了巫师世界",
+					"author": "食草凯门鳄",
+					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1044603424/180",
+					"url": "https://www.qidian.com/book/1044603424/",
+					"category": "奇幻",
+					"lastChapter": "第九百二十章 教育和变故",
+					"updateStatus": "有更新",
+					"readProgress": "读至第三百一十三章 第二阶段和红尘之气",
+					"lastChapterNum": 920,
+					"readChapterNum": 313
+				},
+				{
+					"title": "学霸的修炼空间",
+					"author": "首席设计师",
+					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1046648247/180",
+					"url": "https://www.qidian.com/book/1046648247/",
+					"category": "都市",
+					"lastChapter": "第610章 震惊的学习资料，我已经理解了一切",
+					"updateStatus": "有更新",
+					"readProgress": "读至第107章 绝对优胜者",
+					"lastChapterNum": 610,
+					"readChapterNum": 107
+				},
+				{
+					"title": "暗影熊提伯斯的位面之旅",
+					"author": "暗影熊",
+					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1010510263/180",
+					"url": "https://www.qidian.com/book/1010510263/",
+					"category": "诸天无限",
+					"lastChapter": "第4684章(ﾉﾟ▽ﾟ)ﾉ深谷幽兰自独芳，黑纱覆面掩红妆",
+					"updateStatus": "有更新",
+					"readProgress": "读至第3722章(๑•ᴗ•๑)♡强行加入队伍",
+					"lastChapterNum": 4684,
+					"readChapterNum": 3722
+				},
+				{
+					"title": "一人之下：我开启了神话纪元",
+					"author": "幕后黑猪",
+					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1040294512/180",
+					"url": "https://www.qidian.com/book/1040294512/",
+					"category": "轻小说",
+					"lastChapter": "第六百三十章",
+					"updateStatus": "有更新",
+					"readProgress": "读至上架+三江感言",
+					"lastChapterNum": 630
+				},
+				{
+					"title": "奇域行商从诅咒开始",
+					"author": "极南之楠",
+					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1045252862/180",
+					"url": "https://www.qidian.com/book/1045252862/",
+					"category": "奇幻",
+					"lastChapter": "第五百一十六章 茉莉与红月",
+					"updateStatus": "有更新",
+					"readProgress": "读至第一百二十九章 潜伏者",
+					"lastChapterNum": 516,
+					"readChapterNum": 129
+				},
+				{
+					"title": "作家手册",
+					"author": "听日",
+					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1049543990/180",
+					"url": "https://www.qidian.com/book/1049543990/",
+					"category": "轻小说",
+					"lastChapter": "第192章 溃不成军",
+					"updateStatus": "无更新",
+					"readProgress": "读至首章",
+					"lastChapterNum": 192
+				},
+				{
+					"title": "火影：宇智波葫芦娃正在重塑忍界",
+					"author": "阴陀螺",
+					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1049561529/180",
+					"url": "https://www.qidian.com/book/1049561529/",
+					"category": "轻小说",
+					"lastChapter": "第二百一十二章 绝对的力量！十尾降至！",
+					"updateStatus": "有更新",
+					"readProgress": "读至第九十六章 云隐殇、雾隐动、木叶惊",
+					"lastChapterNum": 212,
+					"readChapterNum": 96
+				},
+				{
+					"title": "冒险者重度依赖！",
+					"author": "梦镜之影",
+					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1047930367/180",
+					"url": "https://www.qidian.com/book/1047930367/",
+					"category": "奇幻",
+					"lastChapter": "第166章：直到我们双方的生命终结（请假今天一章）",
+					"updateStatus": "有更新",
+					"readProgress": "读至第108章：飞贼的职责",
+					"lastChapterNum": 166,
+					"readChapterNum": 108
+				},
+				{
+					"title": "1987我的年代",
+					"author": "三月麻竹",
+					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1040855137/180",
+					"url": "https://www.qidian.com/book/1040855137/",
+					"category": "都市",
+					"lastChapter": "第944章",
+					"updateStatus": "有更新",
+					"readProgress": "读至额，有必要澄清一下",
+					"lastChapterNum": 944
+				},
+				{
+					"title": "重生2013：超级科技帝国",
+					"author": "昭灵驷玉",
+					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1045126130/180",
+					"url": "https://www.qidian.com/book/1045126130/",
+					"category": "科幻",
+					"lastChapter": "【宇宙篇】第606章 三个纪元的融合",
+					"updateStatus": "有更新",
+					"readProgress": "读至关于本书后期冲出地球的剧情安排",
+					"lastChapterNum": 606
+				},
+				{
+					"title": "人在美利坚：我的叔叔堂吉诃德",
+					"author": "喜欢吃圣代",
+					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1047259146/180",
+					"url": "https://www.qidian.com/book/1047259146/",
+					"category": "都市",
+					"lastChapter": "请假一天",
+					"updateStatus": "有更新",
+					"readProgress": "读至第354章 再来一条！（求月票）",
+					"readChapterNum": 354
+				},
+				{
+					"title": "财富自由从毕业开始",
+					"author": "快把车门焊死",
+					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1039396584/180",
+					"url": "https://www.qidian.com/book/1039396584/",
+					"category": "都市",
+					"lastChapter": "第913章 丁家",
+					"updateStatus": "尚未阅读",
+					"readProgress": "尚未阅读",
+					"lastChapterNum": 913
+				},
+				{
+					"title": "我在中东当王爷",
+					"author": "万古青天一株柳",
+					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1046815397/180",
+					"url": "https://www.qidian.com/book/1046815397/",
+					"category": "都市",
+					"lastChapter": "第779章 定风波·高筑墙（2）",
+					"updateStatus": "有更新",
+					"readProgress": "读至第124章 退婚？没门！",
+					"lastChapterNum": 779,
+					"readChapterNum": 124
+				},
+				{
+					"title": "机器人学魔法的概率不是零",
+					"author": "北雁悠悠",
+					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1047663339/180",
+					"url": "https://www.qidian.com/book/1047663339/",
+					"category": "轻小说",
+					"lastChapter": "第393章 休整（下）",
+					"updateStatus": "有更新",
+					"readProgress": "读至第331章 “神之卵”降临（终）",
+					"lastChapterNum": 393,
+					"readChapterNum": 331
+				},
+				{
+					"title": "谁说我不是正经冒险者",
+					"author": "NK狐NK",
+					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1047882236/180",
+					"url": "https://www.qidian.com/book/1047882236/",
+					"category": "轻小说",
+					"lastChapter": "第607章 你觉得，夏花祭像不像一场仪式？",
+					"updateStatus": "有更新",
+					"readProgress": "读至第242章 传说、容器、声望",
+					"lastChapterNum": 607,
+					"readChapterNum": 242
+				},
+				{
+					"title": "游戏制作：从重铸二次元游戏开始",
+					"author": "月莹夜",
+					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1044472173/180",
+					"url": "https://www.qidian.com/book/1044472173/",
+					"category": "都市",
+					"lastChapter": "第1532章 卧槽？",
+					"updateStatus": "有更新",
+					"readProgress": "读至第1500章 基于开发中硬件的概念演示",
+					"lastChapterNum": 1532,
+					"readChapterNum": 1500
+				},
+				{
+					"title": "我在异界种田封神",
+					"author": "永夜骑士",
+					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1035966710/180",
+					"url": "https://www.qidian.com/book/1035966710/",
+					"category": "奇幻",
+					"lastChapter": "第一千七百九十三章 战兵自动化铸造流水线",
+					"updateStatus": "尚未阅读",
+					"readProgress": "尚未阅读",
+					"lastChapterNum": 1793
+				},
+				{
+					"title": "金钱玩家",
+					"author": "鬼谷孒",
+					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1037960335/180",
+					"url": "https://www.qidian.com/book/1037960335/",
+					"category": "都市",
+					"lastChapter": "第一千零四十五章、价值交换",
+					"updateStatus": "尚未阅读",
+					"readProgress": "尚未阅读",
+					"lastChapterNum": 1045
+				},
+				{
+					"title": "逼我当神豪是吧",
+					"author": "云里狂生",
+					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1040317126/180",
+					"url": "https://www.qidian.com/book/1040317126/",
+					"category": "都市",
+					"lastChapter": "第903章她们这么卖力，必须好好奖励……（大章求订阅）",
+					"updateStatus": "有更新",
+					"readProgress": "读至第52章安璐的高调同事",
+					"lastChapterNum": 903,
+					"readChapterNum": 52
+				},
+				{
+					"title": "第四天灾就没有正常的",
+					"author": "中二的毒牙",
+					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1044064426/180",
+					"url": "https://www.qidian.com/book/1044064426/",
+					"category": "诸天无限",
+					"lastChapter": "第554章 椅仔姑",
+					"updateStatus": "有更新",
+					"readProgress": "读至上架感言",
+					"lastChapterNum": 554
+				},
+				{
+					"title": "重生08，邪修创业",
+					"author": "无醉春秋",
+					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1045578425/180",
+					"url": "https://www.qidian.com/book/1045578425/",
+					"category": "都市",
+					"lastChapter": "第565章 台积电的终极杀招，三星秒跪！",
+					"updateStatus": "有更新",
+					"readProgress": "读至第6章 走美团的路，让美团无路可走！",
+					"lastChapterNum": 565,
+					"readChapterNum": 6
 				},
 				{
 					"title": "从满仓A股开始成为资本",
@@ -194,10 +892,10 @@
 					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1044349300/180",
 					"url": "https://www.qidian.com/book/1044349300/",
 					"category": "都市",
-					"lastChapter": "第五百四十五章 炒股手机的战斗机，环保女孩离奇失踪",
+					"lastChapter": "第五百五十七章 2万亿盘面决堤，不可调解的恩怨局",
 					"updateStatus": "有更新",
 					"readProgress": "读至第九章 拿钱办事",
-					"lastChapterNum": 545,
+					"lastChapterNum": 557,
 					"readChapterNum": 9
 				},
 				{
@@ -206,43 +904,22 @@
 					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1042108416/180",
 					"url": "https://www.qidian.com/book/1042108416/",
 					"category": "玄幻",
-					"lastChapter": "第一千二百六十七章 唯一之势",
+					"lastChapter": "第一千二百七十九章 太初石",
 					"updateStatus": "尚未阅读",
 					"readProgress": "尚未阅读",
-					"lastChapterNum": 1267
+					"lastChapterNum": 1279
 				},
 				{
-					"title": "重生从1993开始",
-					"author": "月阳之涯",
-					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1038540283/180",
-					"url": "https://www.qidian.com/book/1038540283/",
-					"category": "都市",
-					"lastChapter": "第一九八四章 什么叫做了一个违背祖制的决定？(求月票)",
+					"title": "火影：我的设定在你之上",
+					"author": "格子碑",
+					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1048802330/180",
+					"url": "https://www.qidian.com/book/1048802330/",
+					"category": "轻小说",
+					"lastChapter": "第229章难道你还想当伴郎",
 					"updateStatus": "有更新",
-					"readProgress": "读至第九十三章 撞车",
-					"lastChapterNum": 4,
-					"readChapterNum": 93
-				},
-				{
-					"title": "四合院里的读书人",
-					"author": "八零阿涛",
-					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1035253219/180",
-					"url": "https://www.qidian.com/book/1035253219/",
-					"category": "都市",
-					"lastChapter": "3531 最初的梦想",
-					"updateStatus": "有更新",
-					"readProgress": "读至端午节致读者的一封信"
-				},
-				{
-					"title": "1984：从破产川菜馆开始",
-					"author": "轻语江湖",
-					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1044818845/180",
-					"url": "https://www.qidian.com/book/1044818845/",
-					"category": "都市",
-					"lastChapter": "九月月票抽奖活动",
-					"updateStatus": "有更新",
-					"readProgress": "读至第168章 是三位大师联手奏响的乐章(月票加更9/33)",
-					"readChapterNum": 168
+					"readProgress": "读至第203章坦白",
+					"lastChapterNum": 229,
+					"readChapterNum": 203
 				},
 				{
 					"title": "方寸之心",
@@ -250,7 +927,7 @@
 					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1048236140/180",
 					"url": "https://www.qidian.com/book/1048236140/",
 					"category": "都市",
-					"lastChapter": "第0375节-展会时间确认",
+					"lastChapter": "第0397节-黄金闪击战",
 					"updateStatus": "有更新",
 					"readProgress": "读至第0163节-追到乌油县的林老师"
 				},
@@ -260,22 +937,10 @@
 					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1043196323/180",
 					"url": "https://www.qidian.com/book/1043196323/",
 					"category": "玄幻",
-					"lastChapter": "第十四章 有望假锻的店铺同盟！",
+					"lastChapter": "第二十六章 再闻普罗布斯与神秘无比的十二生肖会！",
 					"updateStatus": "尚未阅读",
 					"readProgress": "尚未阅读",
-					"lastChapterNum": 14
-				},
-				{
-					"title": "不会魔法的土木工程师不是好领主",
-					"author": "左斯右想",
-					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1037411368/180",
-					"url": "https://www.qidian.com/book/1037411368/",
-					"category": "奇幻",
-					"lastChapter": "第120章 艾莎的“告密”",
-					"updateStatus": "有更新",
-					"readProgress": "读至第609章 兵祸（2）",
-					"lastChapterNum": 120,
-					"readChapterNum": 609
+					"lastChapterNum": 26
 				},
 				{
 					"title": "刚成海贼王，你告诉我同时穿越了",
@@ -283,10 +948,10 @@
 					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1037801868/180",
 					"url": "https://www.qidian.com/book/1037801868/",
 					"category": "诸天无限",
-					"lastChapter": "第1136章 漫无边际",
+					"lastChapter": "第1148章 巨大的漩涡",
 					"updateStatus": "有更新",
 					"readProgress": "读至第112章 埼玉之血与不速之客",
-					"lastChapterNum": 1136,
+					"lastChapterNum": 1148,
 					"readChapterNum": 112
 				},
 				{
@@ -295,113 +960,33 @@
 					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1047411403/180",
 					"url": "https://www.qidian.com/book/1047411403/",
 					"category": "游戏",
-					"lastChapter": "第651章 崩击云身双虎掌，修罗霸王靠华山",
+					"lastChapter": "第677章 压力一台洗衣机？",
 					"updateStatus": "有更新",
 					"readProgress": "读至第422章 目标是宝可梦大师！",
-					"lastChapterNum": 651,
+					"lastChapterNum": 677,
 					"readChapterNum": 422
 				},
 				{
-					"title": "同时穿越：继承万界遗产",
-					"author": "透明鸽子",
-					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1046194994/180",
-					"url": "https://www.qidian.com/book/1046194994/",
-					"category": "轻小说",
-					"lastChapter": "致亲爱的读者（8月总结）",
-					"updateStatus": "有更新",
-					"readProgress": "读至致亲爱的读者2（12月总结）"
-				},
-				{
-					"title": "我加载了神秘学面板",
-					"author": "雨中有秋云",
-					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1048499963/180",
-					"url": "https://www.qidian.com/book/1048499963/",
-					"category": "奇幻",
-					"lastChapter": "第503章 学姐的晋升准备",
-					"updateStatus": "有更新",
-					"readProgress": "读至第378章 没人是傻子",
-					"lastChapterNum": 503,
-					"readChapterNum": 378
-				},
-				{
-					"title": "整座大山都是我的猎场",
-					"author": "百李山中仙",
-					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1031866444/180",
-					"url": "https://www.qidian.com/book/1031866444/",
-					"category": "都市",
-					"lastChapter": "九月抽奖，90年野山参、鹿枪酒",
-					"updateStatus": "有更新",
-					"readProgress": "读至第四百五十一章.易拉罐剪捉脚",
-					"readChapterNum": 451
-				},
-				{
-					"title": "文豪1879：独行法兰西",
-					"author": "长夜风过",
-					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1045279264/180",
-					"url": "https://www.qidian.com/book/1045279264/",
-					"category": "历史",
-					"lastChapter": "番外 伦敦往事（下）",
-					"updateStatus": "有更新",
-					"readProgress": "读至聊个闲天"
-				},
-				{
-					"title": "重生08，邪修创业",
-					"author": "无醉春秋",
-					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1045578425/180",
-					"url": "https://www.qidian.com/book/1045578425/",
-					"category": "都市",
-					"lastChapter": "第553章 乔布斯的担忧，百度手机困境！（求月票！）",
-					"updateStatus": "有更新",
-					"readProgress": "读至第6章 走美团的路，让美团无路可走！",
-					"lastChapterNum": 553,
-					"readChapterNum": 6
-				},
-				{
-					"title": "要当总统了，你告诉我是纸牌屋？",
+					"title": "美利坚公民的名义",
 					"author": "山居寒岁",
 					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1048193111/180",
 					"url": "https://www.qidian.com/book/1048193111/",
 					"category": "都市",
-					"lastChapter": "第322章 总统特赦！重建舰队的真实理由！（求，九月的第一张月票！）",
+					"lastChapter": "第334章 被忽悠成胚胎的小布什！（求月票~~）",
 					"updateStatus": "有更新",
-					"readProgress": "读至改名通知",
-					"lastChapterNum": 322
+					"readProgress": "读至书籍改名通知～～～",
+					"lastChapterNum": 334
 				},
 				{
-					"title": "东京1991，从银行职员开始",
-					"author": "今日手缚苍龙",
-					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1048796969/180",
-					"url": "https://www.qidian.com/book/1048796969/",
-					"category": "轻小说",
-					"lastChapter": "第331章 中岛常务的应对",
+					"title": "超凡大谱系",
+					"author": "鸽子与咸鱼",
+					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1035582058/180",
+					"url": "https://www.qidian.com/book/1035582058/",
+					"category": "游戏",
+					"lastChapter": "第64章 ：赌狗家族",
 					"updateStatus": "有更新",
-					"readProgress": "读至第118章 冰山一角【五更求月票】",
-					"lastChapterNum": 331,
-					"readChapterNum": 118
-				},
-				{
-					"title": "从木叶开始解析忍界",
-					"author": "阁下贵姓",
-					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1047803734/180",
-					"url": "https://www.qidian.com/book/1047803734/",
-					"category": "轻小说",
-					"lastChapter": "第341章",
-					"updateStatus": "有更新",
-					"readProgress": "读至第249章 大名的怒火",
-					"lastChapterNum": 341,
-					"readChapterNum": 249
-				},
-				{
-					"title": "重生99，从给学霸当老师开始",
-					"author": "三分糊涂",
-					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1045767516/180",
-					"url": "https://www.qidian.com/book/1045767516/",
-					"category": "都市",
-					"lastChapter": "第303章 资本主义螺丝钉",
-					"updateStatus": "有更新",
-					"readProgress": "读至第260章 我的理想",
-					"lastChapterNum": 303,
-					"readChapterNum": 260
+					"readProgress": "读至今天鸽一天",
+					"lastChapterNum": 64
 				},
 				{
 					"title": "循规蹈矩能叫重生吗？",
@@ -409,91 +994,9 @@
 					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1044127792/180",
 					"url": "https://www.qidian.com/book/1044127792/",
 					"category": "都市",
-					"lastChapter": "636.明天过后",
+					"lastChapter": "650.超自然力量",
 					"updateStatus": "有更新",
 					"readProgress": "读至85.她的双料成长（5k）"
-				},
-				{
-					"title": "吾乃高武神人",
-					"author": "光耀大千录",
-					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1048023891/180",
-					"url": "https://www.qidian.com/book/1048023891/",
-					"category": "玄幻",
-					"lastChapter": "第365章 宇境大舞台，没挂你别来！",
-					"updateStatus": "有更新",
-					"readProgress": "读至第252章 【橙·映照大千】【感谢颠倒琉璃难忘心的盟主】",
-					"lastChapterNum": 365,
-					"readChapterNum": 252
-				},
-				{
-					"title": "不帅踢什么球",
-					"author": "知我是我",
-					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1047460892/180",
-					"url": "https://www.qidian.com/book/1047460892/",
-					"category": "体育",
-					"lastChapter": "第275章 首枚钻石徽章来了！开踢玄幻足球？！逸帝单体实力已超梅越罗！",
-					"updateStatus": "有更新",
-					"readProgress": "读至第100章 天外飞仙+钟摆过人！当面NTR！用老头最擅长的招数虐老头！",
-					"lastChapterNum": 275,
-					"readChapterNum": 100
-				},
-				{
-					"title": "重生我打造了实业帝国",
-					"author": "三十二编",
-					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1045373936/180",
-					"url": "https://www.qidian.com/book/1045373936/",
-					"category": "都市",
-					"lastChapter": "第520章 一力降十会4K（求月票推荐票求追订）",
-					"updateStatus": "有更新",
-					"readProgress": "读至第176章 协商（求月票推荐票求追订！）",
-					"lastChapterNum": 520,
-					"readChapterNum": 176
-				},
-				{
-					"title": "勇者可以不活，但不能没活",
-					"author": "Tokyo哥斯拉",
-					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1043044656/180",
-					"url": "https://www.qidian.com/book/1043044656/",
-					"category": "轻小说",
-					"lastChapter": "第272章 枪械",
-					"updateStatus": "无更新",
-					"readProgress": "读至首章",
-					"lastChapterNum": 272
-				},
-				{
-					"title": "火影：我的攻略对象全是忍术",
-					"author": "清柠气泡水",
-					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1047713227/180",
-					"url": "https://www.qidian.com/book/1047713227/",
-					"category": "轻小说",
-					"lastChapter": "第344章 平手？十米火焰刀，一刀分海！",
-					"updateStatus": "有更新",
-					"readProgress": "读至第254章 烈焰王座下的三上悠，宇智波斑的反应（二合一）",
-					"lastChapterNum": 344,
-					"readChapterNum": 254
-				},
-				{
-					"title": "重生2010：开局做空棉花期货",
-					"author": "左右刀斧手",
-					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1044921108/180",
-					"url": "https://www.qidian.com/book/1044921108/",
-					"category": "都市",
-					"lastChapter": "第454章 加密市场的竞争者，陈平的半导体雄心",
-					"updateStatus": "有更新",
-					"readProgress": "读至第372章 陈平征服全场，历史性时刻！（万字）",
-					"lastChapterNum": 454,
-					"readChapterNum": 372
-				},
-				{
-					"title": "我的替身是史蒂夫",
-					"author": "栖月幽蓝",
-					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1034447414/180",
-					"url": "https://www.qidian.com/book/1034447414/",
-					"category": "轻小说",
-					"lastChapter": "第一千五百八十五章 什么叫这场大赛就跟养蛊一样，现在出了一大堆十转仙蛊？",
-					"updateStatus": "有更新",
-					"readProgress": "读至国庆快乐",
-					"lastChapterNum": 1585
 				},
 				{
 					"title": "我的魔法没有上限！",
@@ -501,34 +1004,11 @@
 					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1040840487/180",
 					"url": "https://www.qidian.com/book/1040840487/",
 					"category": "奇幻",
-					"lastChapter": "第四百八十九章 【赤潮】",
+					"lastChapter": "第五百零一章 令人安心",
 					"updateStatus": "有更新",
 					"readProgress": "读至第一百三十八章 月湾",
-					"lastChapterNum": 489,
+					"lastChapterNum": 501,
 					"readChapterNum": 138
-				},
-				{
-					"title": "金钱玩家",
-					"author": "鬼谷孒",
-					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1037960335/180",
-					"url": "https://www.qidian.com/book/1037960335/",
-					"category": "都市",
-					"lastChapter": "第一千零三十五章、孙子、大爷",
-					"updateStatus": "尚未阅读",
-					"readProgress": "尚未阅读",
-					"lastChapterNum": 1035
-				},
-				{
-					"title": "桀桀，美警可太好了！",
-					"author": "焰火璀璨",
-					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1048864298/180",
-					"url": "https://www.qidian.com/book/1048864298/",
-					"category": "都市",
-					"lastChapter": "第三百零八章：",
-					"updateStatus": "有更新",
-					"readProgress": "读至第二百一十一章：黑畜总是有新节目（求月票）",
-					"lastChapterNum": 308,
-					"readChapterNum": 211
 				},
 				{
 					"title": "超魔术士：开局魔网又崩了",
@@ -536,11 +1016,22 @@
 					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1045343096/180",
 					"url": "https://www.qidian.com/book/1045343096/",
 					"category": "奇幻",
-					"lastChapter": "第755章 狂野太空毒",
+					"lastChapter": "第775章 破碎之地",
 					"updateStatus": "有更新",
 					"readProgress": "读至第59章 竖琴手同盟",
-					"lastChapterNum": 755,
+					"lastChapterNum": 775,
 					"readChapterNum": 59
+				},
+				{
+					"title": "我的替身是史蒂夫",
+					"author": "栖月幽蓝",
+					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1034447414/180",
+					"url": "https://www.qidian.com/book/1034447414/",
+					"category": "轻小说",
+					"lastChapter": "第一千五百九十五章 某些人确实成功晋级总决赛了……可代价又是什么呢？",
+					"updateStatus": "有更新",
+					"readProgress": "读至国庆快乐",
+					"lastChapterNum": 1595
 				},
 				{
 					"title": "御灵修仙，你怎么御航母",
@@ -548,11 +1039,94 @@
 					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1048218520/180",
 					"url": "https://www.qidian.com/book/1048218520/",
 					"category": "科幻",
-					"lastChapter": "第306章：高空捕猎",
+					"lastChapter": "第315章：第六阶",
 					"updateStatus": "有更新",
 					"readProgress": "读至第237章：四大仙门齐聚",
-					"lastChapterNum": 306,
+					"lastChapterNum": 315,
 					"readChapterNum": 237
+				},
+				{
+					"title": "1984：从破产川菜馆开始",
+					"author": "轻语江湖",
+					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1044818845/180",
+					"url": "https://www.qidian.com/book/1044818845/",
+					"category": "都市",
+					"lastChapter": "第643章 没关系，为了你，我可以把它磨尖来！（1.2w）",
+					"updateStatus": "有更新",
+					"readProgress": "读至第168章 是三位大师联手奏响的乐章(月票加更9/33)",
+					"lastChapterNum": 643,
+					"readChapterNum": 168
+				},
+				{
+					"title": "吾乃高武神人",
+					"author": "光耀大千录",
+					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1048023891/180",
+					"url": "https://www.qidian.com/book/1048023891/",
+					"category": "玄幻",
+					"lastChapter": "第376章 自我修行！天地逆转！",
+					"updateStatus": "有更新",
+					"readProgress": "读至第252章 【橙·映照大千】【感谢颠倒琉璃难忘心的盟主】",
+					"lastChapterNum": 376,
+					"readChapterNum": 252
+				},
+				{
+					"title": "勇者可以不活，但不能没活",
+					"author": "Tokyo哥斯拉",
+					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1043044656/180",
+					"url": "https://www.qidian.com/book/1043044656/",
+					"category": "轻小说",
+					"lastChapter": "第281章 宁的多重宇宙",
+					"updateStatus": "无更新",
+					"readProgress": "读至首章",
+					"lastChapterNum": 281
+				},
+				{
+					"title": "不帅踢什么球",
+					"author": "知我是我",
+					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1047460892/180",
+					"url": "https://www.qidian.com/book/1047460892/",
+					"category": "体育",
+					"lastChapter": "第285章 逸帝时代降临！22岁连庄金球！梅西瑟瑟发抖，金球第一不保？",
+					"updateStatus": "有更新",
+					"readProgress": "读至第100章 天外飞仙+钟摆过人！当面NTR！用老头最擅长的招数虐老头！",
+					"lastChapterNum": 285,
+					"readChapterNum": 100
+				},
+				{
+					"title": "火影：我的攻略对象全是忍术",
+					"author": "清柠气泡水",
+					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1047713227/180",
+					"url": "https://www.qidian.com/book/1047713227/",
+					"category": "轻小说",
+					"lastChapter": "第356章 三上悠已死，是非对错我已无心分辨，闪击雾隐！",
+					"updateStatus": "有更新",
+					"readProgress": "读至第254章 烈焰王座下的三上悠，宇智波斑的反应（二合一）",
+					"lastChapterNum": 356,
+					"readChapterNum": 254
+				},
+				{
+					"title": "重生99，从给学霸当老师开始",
+					"author": "三分糊涂",
+					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1045767516/180",
+					"url": "https://www.qidian.com/book/1045767516/",
+					"category": "都市",
+					"lastChapter": "第312章 好羞！",
+					"updateStatus": "有更新",
+					"readProgress": "读至第260章 我的理想",
+					"lastChapterNum": 312,
+					"readChapterNum": 260
+				},
+				{
+					"title": "重生我打造了实业帝国",
+					"author": "三十二编",
+					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1045373936/180",
+					"url": "https://www.qidian.com/book/1045373936/",
+					"category": "都市",
+					"lastChapter": "第531章 始动4K（求月票推荐票求追订）",
+					"updateStatus": "有更新",
+					"readProgress": "读至第176章 协商（求月票推荐票求追订！）",
+					"lastChapterNum": 531,
+					"readChapterNum": 176
 				},
 				{
 					"title": "饮食男女",
@@ -560,11 +1134,22 @@
 					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1033780528/180",
 					"url": "https://www.qidian.com/book/1033780528/",
 					"category": "都市",
-					"lastChapter": "第416章 相亲",
+					"lastChapter": "第426章 普通人",
 					"updateStatus": "有更新",
 					"readProgress": "读至第九十六章 歪风邪气",
-					"lastChapterNum": 416,
+					"lastChapterNum": 426,
 					"readChapterNum": 96
+				},
+				{
+					"title": "整座大山都是我的猎场",
+					"author": "百李山中仙",
+					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1031866444/180",
+					"url": "https://www.qidian.com/book/1031866444/",
+					"category": "都市",
+					"lastChapter": "请个假，捋捋后续情节",
+					"updateStatus": "有更新",
+					"readProgress": "读至第四百五十一章.易拉罐剪捉脚",
+					"readChapterNum": 451
 				},
 				{
 					"title": "我满级天师，你让我进规则怪谈？",
@@ -572,22 +1157,239 @@
 					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1037114325/180",
 					"url": "https://www.qidian.com/book/1037114325/",
 					"category": "都市",
-					"lastChapter": "第2321章：这份荣誉我不会独享！（求订阅，求月票）",
+					"lastChapter": "第2345章：这小子怕不是有什么大病！（求订阅，求月票）",
 					"updateStatus": "有更新",
 					"readProgress": "读至第635章：一场无法描述的战斗！（求订阅，求月票）",
-					"lastChapterNum": 2321,
+					"lastChapterNum": 2345,
 					"readChapterNum": 635
 				},
 				{
-					"title": "大明与新罗马与无限神机",
-					"author": "鲤鲤鱼仙人",
-					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1036609220/180",
-					"url": "https://www.qidian.com/book/1036609220/",
-					"category": "轻小说",
-					"lastChapter": "第二千一百八十八章",
+					"title": "东京泡沫人生",
+					"author": "大肚杯",
+					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1033886400/180",
+					"url": "https://www.qidian.com/book/1033886400/",
+					"category": "都市",
+					"lastChapter": "1655，大家的忍耐是有极限的！！",
 					"updateStatus": "有更新",
-					"readProgress": "读至新书《怪兽分解公司》今日上架啦",
-					"lastChapterNum": 2188
+					"readProgress": "读至524，退后！我要开始装B了！"
+				},
+				{
+					"title": "美剧：从无耻之徒开始的硅谷大亨",
+					"author": "微醺小螃蟹",
+					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1048643009/180",
+					"url": "https://www.qidian.com/book/1048643009/",
+					"category": "诸天无限",
+					"lastChapter": "第228章 瑞雪兆丰年（下）",
+					"updateStatus": "有更新",
+					"readProgress": "读至第120章 弗兰克，怎么老是你",
+					"lastChapterNum": 228,
+					"readChapterNum": 120
+				},
+				{
+					"title": "重生童年：从救下小青梅开始",
+					"author": "梦中锦鲤游",
+					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1042203614/180",
+					"url": "https://www.qidian.com/book/1042203614/",
+					"category": "都市",
+					"lastChapter": "第856章 手串",
+					"updateStatus": "有更新",
+					"readProgress": "读至第153章 又发奖励",
+					"lastChapterNum": 856,
+					"readChapterNum": 153
+				},
+				{
+					"title": "文豪：这大叔才华横溢",
+					"author": "一切以大橘为重",
+					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1045597263/180",
+					"url": "https://www.qidian.com/book/1045597263/",
+					"category": "都市",
+					"lastChapter": "明天更新一万字吧",
+					"updateStatus": "有更新",
+					"readProgress": "读至第96章 我能加入吗？",
+					"readChapterNum": 96
+				},
+				{
+					"title": "种菜骷髅的异域开荒",
+					"author": "情终流水",
+					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1026100141/180",
+					"url": "https://www.qidian.com/book/1026100141/",
+					"category": "轻小说",
+					"lastChapter": "一千六百九十七章 去砸了幽灵的老巢",
+					"updateStatus": "有更新",
+					"readProgress": "读至第一千四百零六章 王，去",
+					"readChapterNum": 1406
+				},
+				{
+					"title": "谁让他当炊事兵的！",
+					"author": "早退迟到",
+					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1044445044/180",
+					"url": "https://www.qidian.com/book/1044445044/",
+					"category": "都市",
+					"lastChapter": "516.合成营营长和教导员有请",
+					"updateStatus": "有更新",
+					"readProgress": "读至222.别样思维，机步营当合成营"
+				},
+				{
+					"title": "巫师：满级天赋，从零环戏法开始",
+					"author": "蓝白海洋",
+					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1045644311/180",
+					"url": "https://www.qidian.com/book/1045644311/",
+					"category": "玄幻",
+					"lastChapter": "第四百二十八章 商会店铺现状，真理之塔分部，现状，布鲁诺再闻伊恩！",
+					"updateStatus": "有更新",
+					"readProgress": "读至第二百一十四章 白银学会福利，认可，卡修斯的错愕",
+					"lastChapterNum": 428,
+					"readChapterNum": 214
+				},
+				{
+					"title": "科技入侵现代",
+					"author": "鸦的碎碎念",
+					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1043452279/180",
+					"url": "https://www.qidian.com/book/1043452279/",
+					"category": "科幻",
+					"lastChapter": "第731章 深红幻镜的彩蛋",
+					"updateStatus": "有更新",
+					"readProgress": "读至解释两句",
+					"lastChapterNum": 731
+				},
+				{
+					"title": "红楼芳华，权倾天下",
+					"author": "爱车的z",
+					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1045831749/180",
+					"url": "https://www.qidian.com/book/1045831749/",
+					"category": "历史",
+					"lastChapter": "第606章 难道那晚是她抱柱子偷看？",
+					"updateStatus": "有更新",
+					"readProgress": "读至第172章 后宫争宠，‘残酷’如斯",
+					"lastChapterNum": 606,
+					"readChapterNum": 172
+				},
+				{
+					"title": "都重生了谁还正经创业啊",
+					"author": "花花花花花光啦",
+					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1042400352/180",
+					"url": "https://www.qidian.com/book/1042400352/",
+					"category": "都市",
+					"lastChapter": "第一千零四十五章 一边用人不疑一边重拳出击（补前天的一更）",
+					"updateStatus": "有更新",
+					"readProgress": "读至第二百一十一章 日落西山猢狲散（求月票，三更第二更！）",
+					"lastChapterNum": 1045,
+					"readChapterNum": 211
+				},
+				{
+					"title": "重生2010：开局做空棉花期货",
+					"author": "左右刀斧手",
+					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1044921108/180",
+					"url": "https://www.qidian.com/book/1044921108/",
+					"category": "都市",
+					"lastChapter": "第466章 灵境AI论文震动全球，美股遭遇史诗级抛售！",
+					"updateStatus": "有更新",
+					"readProgress": "读至第372章 陈平征服全场，历史性时刻！（万字）",
+					"lastChapterNum": 466,
+					"readChapterNum": 372
+				},
+				{
+					"title": "诸天，从用概念技治疗道伤开始",
+					"author": "山江月夜",
+					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1045709517/180",
+					"url": "https://www.qidian.com/book/1045709517/",
+					"category": "诸天无限",
+					"lastChapter": "第432章 上神族祖星，叶凡盖压神族大圣",
+					"updateStatus": "无更新",
+					"readProgress": "读至首章",
+					"lastChapterNum": 432
+				},
+				{
+					"title": "什么？我的二次元手办都成真了！",
+					"author": "浪漫人类爱",
+					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1047147445/180",
+					"url": "https://www.qidian.com/book/1047147445/",
+					"category": "轻小说",
+					"lastChapter": "今天休息",
+					"updateStatus": "有更新",
+					"readProgress": "读至第二百四十三章 这TM是我能听的吗？",
+					"readChapterNum": 243
+				},
+				{
+					"title": "不会魔法的土木工程师不是好领主",
+					"author": "左斯右想",
+					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1037411368/180",
+					"url": "https://www.qidian.com/book/1037411368/",
+					"category": "奇幻",
+					"lastChapter": "第130章 “父慈女孝”",
+					"updateStatus": "有更新",
+					"readProgress": "读至第609章 兵祸（2）",
+					"lastChapterNum": 130,
+					"readChapterNum": 609
+				},
+				{
+					"title": "lol：开局绑定辛德拉",
+					"author": "胖铜侠",
+					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1042131169/180",
+					"url": "https://www.qidian.com/book/1042131169/",
+					"category": "轻小说",
+					"lastChapter": "第1166章 全军出击",
+					"updateStatus": "有更新",
+					"readProgress": "读至第644章 伟大的黑太阳把光辉洒向了嘉文四世（二合一",
+					"lastChapterNum": 1166,
+					"readChapterNum": 644
+				},
+				{
+					"title": "没钱上大学的我只能去屠龙了",
+					"author": "宇宙无敌水哥",
+					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1021624434/180",
+					"url": "https://www.qidian.com/book/1021624434/",
+					"category": "轻小说",
+					"lastChapter": "第二千一百五十四章 ：雇佣与契约",
+					"updateStatus": "有更新",
+					"readProgress": "读至第二千一百二十六章：天台",
+					"lastChapterNum": 2154,
+					"readChapterNum": 2126
+				},
+				{
+					"title": "我，天才交易员！",
+					"author": "我居然是凡人",
+					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1047998044/180",
+					"url": "https://www.qidian.com/book/1047998044/",
+					"category": "都市",
+					"lastChapter": "请天假",
+					"updateStatus": "有更新",
+					"readProgress": "读至第一百二十章 养小花",
+					"readChapterNum": 120
+				},
+				{
+					"title": "法师之上！",
+					"author": "暴走叉烧包",
+					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1040247886/180",
+					"url": "https://www.qidian.com/book/1040247886/",
+					"category": "玄幻",
+					"lastChapter": "第30章 荣誉法师",
+					"updateStatus": "有更新",
+					"readProgress": "读至第145章 石肤蜥蜴",
+					"lastChapterNum": 30,
+					"readChapterNum": 145
+				},
+				{
+					"title": "从木叶开始解析忍界",
+					"author": "阁下贵姓",
+					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1047803734/180",
+					"url": "https://www.qidian.com/book/1047803734/",
+					"category": "轻小说",
+					"lastChapter": "晚上请个假",
+					"updateStatus": "有更新",
+					"readProgress": "读至第249章 大名的怒火",
+					"readChapterNum": 249
+				},
+				{
+					"title": "哥布林重度依赖",
+					"author": "絮理",
+					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1042786143/180",
+					"url": "https://www.qidian.com/book/1042786143/",
+					"category": "奇幻",
+					"lastChapter": "第643章 【凋零嚎哭】",
+					"updateStatus": "有更新",
+					"readProgress": "读至上架感言",
+					"lastChapterNum": 643
 				},
 				{
 					"title": "我在现代留过学",
@@ -595,10 +1397,197 @@
 					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1037169723/180",
 					"url": "https://www.qidian.com/book/1037169723/",
 					"category": "历史",
-					"lastChapter": "第一千一百九十章 天都（1）",
+					"lastChapter": "第一千一百九十四章 爆发",
 					"updateStatus": "有更新",
 					"readProgress": "读至七月总结，八月展望。",
-					"lastChapterNum": 1190
+					"lastChapterNum": 1194
+				},
+				{
+					"title": "真实历史模拟游戏",
+					"author": "斩刀人",
+					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1045207104/180",
+					"url": "https://www.qidian.com/book/1045207104/",
+					"category": "历史",
+					"lastChapter": "第628章 万民同庆，千帆竞流",
+					"updateStatus": "有更新",
+					"readProgress": "读至第363章 平定台湾，而后从琉球开始",
+					"lastChapterNum": 628,
+					"readChapterNum": 363
+				},
+				{
+					"title": "生活不易，红龙卖艺？",
+					"author": "这啥啊都",
+					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1045939992/180",
+					"url": "https://www.qidian.com/book/1045939992/",
+					"category": "奇幻",
+					"lastChapter": "第二百零七章 万物的扩容",
+					"updateStatus": "无更新",
+					"readProgress": "读至首章",
+					"lastChapterNum": 207
+				},
+				{
+					"title": "我来教你们修仙",
+					"author": "懒人zero",
+					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1044084610/180",
+					"url": "https://www.qidian.com/book/1044084610/",
+					"category": "玄幻",
+					"lastChapter": "新书《二十一世纪的白玉京》求支持啊！",
+					"updateStatus": "有更新",
+					"readProgress": "读至第十五章 圣人一言，万民响应（3/3）",
+					"readChapterNum": 15
+				},
+				{
+					"title": "首富从AI浪潮开始",
+					"author": "路大头",
+					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1047996831/180",
+					"url": "https://www.qidian.com/book/1047996831/",
+					"category": "都市",
+					"lastChapter": "第四百一十七章 那你接着卖坤元呗",
+					"updateStatus": "有更新",
+					"readProgress": "读至第二百四十五章 已省略",
+					"lastChapterNum": 417,
+					"readChapterNum": 245
+				},
+				{
+					"title": "维度魔神的聊天群",
+					"author": "九棍",
+					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1043579203/180",
+					"url": "https://www.qidian.com/book/1043579203/",
+					"category": "诸天无限",
+					"lastChapter": "更新说明",
+					"updateStatus": "无更新",
+					"readProgress": "读至首章"
+				},
+				{
+					"title": "千面之龙",
+					"author": "愤怒的松鼠",
+					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1043761210/180",
+					"url": "https://www.qidian.com/book/1043761210/",
+					"category": "轻小说",
+					"lastChapter": "新书乐子文\"邪神?让我看看你的遗言\"已发。",
+					"updateStatus": "有更新",
+					"readProgress": "读至第39章 修女玛利亚（一更）",
+					"readChapterNum": 39
+				},
+				{
+					"title": "重生08，我被确诊为医学泰斗",
+					"author": "忧伤的饭饭",
+					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1048016867/180",
+					"url": "https://www.qidian.com/book/1048016867/",
+					"category": "都市",
+					"lastChapter": "月票兑奖单章",
+					"updateStatus": "有更新",
+					"readProgress": "读至第392章 才女配英杰",
+					"readChapterNum": 392
+				},
+				{
+					"title": "重生后，自己养成小青梅",
+					"author": "曹瞒君",
+					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1046765931/180",
+					"url": "https://www.qidian.com/book/1046765931/",
+					"category": "轻小说",
+					"lastChapter": "新书《线上聊天的网友是未来女儿！》上线通知",
+					"updateStatus": "有更新",
+					"readProgress": "读至157 父母的冷战（第三更，求月票~）"
+				},
+				{
+					"title": "唯我独法：奇幻系日常",
+					"author": "邪王真眼赛高",
+					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1045532933/180",
+					"url": "https://www.qidian.com/book/1045532933/",
+					"category": "轻小说",
+					"lastChapter": "新书《为平静的世界献上点脏东西》",
+					"updateStatus": "有更新",
+					"readProgress": "读至第213章 站在食物链顶端的男人",
+					"readChapterNum": 213
+				},
+				{
+					"title": "拯救宇智波，从全族学霸气开始",
+					"author": "三年不感冒",
+					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1047051914/180",
+					"url": "https://www.qidian.com/book/1047051914/",
+					"category": "轻小说",
+					"lastChapter": "第358章 完结感言",
+					"updateStatus": "有更新",
+					"readProgress": "读至第253章 现在的你还不够格",
+					"lastChapterNum": 358,
+					"readChapterNum": 253
+				},
+				{
+					"title": "1977：开局相亲女儿国王",
+					"author": "天不负01",
+					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1039879932/180",
+					"url": "https://www.qidian.com/book/1039879932/",
+					"category": "都市",
+					"lastChapter": "第八百六十四章 无形的网！",
+					"updateStatus": "有更新",
+					"readProgress": "读至第三百九十七章 旅行箱上市",
+					"lastChapterNum": 864,
+					"readChapterNum": 397
+				},
+				{
+					"title": "火影：从打造天才人设开始",
+					"author": "南方暖风昔人",
+					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1047711617/180",
+					"url": "https://www.qidian.com/book/1047711617/",
+					"category": "轻小说",
+					"lastChapter": "第二百二十七章：赤炎与苍炎，木叶紧急会议",
+					"updateStatus": "无更新",
+					"readProgress": "读至首章",
+					"lastChapterNum": 227
+				},
+				{
+					"title": "钢铁火药和施法者",
+					"author": "尹紫电",
+					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1021263756/180",
+					"url": "https://www.qidian.com/book/1021263756/",
+					"category": "奇幻",
+					"lastChapter": "第一百零九章 狐鼠游戏（十九）",
+					"updateStatus": "无更新",
+					"readProgress": "读至首章",
+					"lastChapterNum": 109
+				},
+				{
+					"title": "大明与新罗马与无限神机",
+					"author": "鲤鲤鱼仙人",
+					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1036609220/180",
+					"url": "https://www.qidian.com/book/1036609220/",
+					"category": "轻小说",
+					"lastChapter": "热烈庆祝书友实践成果落地",
+					"updateStatus": "有更新",
+					"readProgress": "读至新书《怪兽分解公司》今日上架啦"
+				},
+				{
+					"title": "离职小米后，我成了友商公敌",
+					"author": "挨踢的老臣",
+					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1039766291/180",
+					"url": "https://www.qidian.com/book/1039766291/",
+					"category": "都市",
+					"lastChapter": "新书已发《觉醒劳保系统后，我成了佛系卷王》",
+					"updateStatus": "有更新",
+					"readProgress": "读至第536章 《赢在华夏特别版》",
+					"readChapterNum": 536
+				},
+				{
+					"title": "火影：融合万界角色模板",
+					"author": "宝石对影",
+					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1048723022/180",
+					"url": "https://www.qidian.com/book/1048723022/",
+					"category": "轻小说",
+					"lastChapter": "完结感言",
+					"updateStatus": "有更新",
+					"readProgress": "读至第一百四十三章 夏木对战绳树，鬼化小南、弥彦（第三、四更）",
+					"readChapterNum": 143
+				},
+				{
+					"title": "人在县城，你说我是大佬？",
+					"author": "森外",
+					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1043284603/180",
+					"url": "https://www.qidian.com/book/1043284603/",
+					"category": "都市",
+					"lastChapter": "开了本新书",
+					"updateStatus": "有更新",
+					"readProgress": "读至229 去大世界玩"
 				},
 				{
 					"title": "我都元婴了，你说我没穿越？",
@@ -609,155 +1598,6 @@
 					"lastChapter": "436 冲击",
 					"updateStatus": "有更新",
 					"readProgress": "读至126 这一切都是他的功劳！"
-				},
-				{
-					"title": "第四天灾就没有正常的",
-					"author": "中二的毒牙",
-					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1044064426/180",
-					"url": "https://www.qidian.com/book/1044064426/",
-					"category": "诸天无限",
-					"lastChapter": "第542章 自作孽",
-					"updateStatus": "有更新",
-					"readProgress": "读至上架感言",
-					"lastChapterNum": 542
-				},
-				{
-					"title": "科技入侵现代",
-					"author": "鸦的碎碎念",
-					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1043452279/180",
-					"url": "https://www.qidian.com/book/1043452279/",
-					"category": "科幻",
-					"lastChapter": "第721章 太空工业的第一步",
-					"updateStatus": "有更新",
-					"readProgress": "读至解释两句",
-					"lastChapterNum": 721
-				},
-				{
-					"title": "旧日恐剧",
-					"author": "三藏的左轮",
-					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1033233344/180",
-					"url": "https://www.qidian.com/book/1033233344/",
-					"category": "科幻",
-					"lastChapter": "第两千九百六十三章 半术",
-					"updateStatus": "有更新",
-					"readProgress": "读至第四章 寻求谏言",
-					"readChapterNum": 4
-				},
-				{
-					"title": "法师之上！",
-					"author": "暴走叉烧包",
-					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1040247886/180",
-					"url": "https://www.qidian.com/book/1040247886/",
-					"category": "玄幻",
-					"lastChapter": "第20章 四阶符文构装",
-					"updateStatus": "有更新",
-					"readProgress": "读至第145章 石肤蜥蜴",
-					"lastChapterNum": 20,
-					"readChapterNum": 145
-				},
-				{
-					"title": "财富自由从毕业开始",
-					"author": "快把车门焊死",
-					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1039396584/180",
-					"url": "https://www.qidian.com/book/1039396584/",
-					"category": "都市",
-					"lastChapter": "第907章 周总的小福利",
-					"updateStatus": "尚未阅读",
-					"readProgress": "尚未阅读",
-					"lastChapterNum": 907
-				},
-				{
-					"title": "重生08，我被确诊为医学泰斗",
-					"author": "忧伤的饭饭",
-					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1048016867/180",
-					"url": "https://www.qidian.com/book/1048016867/",
-					"category": "都市",
-					"lastChapter": "月票抽奖和完本说明",
-					"updateStatus": "有更新",
-					"readProgress": "读至第392章 才女配英杰",
-					"readChapterNum": 392
-				},
-				{
-					"title": "大唐：如何成为玄武门总策划",
-					"author": "见月明",
-					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1046483377/180",
-					"url": "https://www.qidian.com/book/1046483377/",
-					"category": "历史",
-					"lastChapter": "第335章 你们三个坏事做尽啊",
-					"updateStatus": "有更新",
-					"readProgress": "读至第94章 因人成事",
-					"lastChapterNum": 335,
-					"readChapterNum": 94
-				},
-				{
-					"title": "巫师：满级天赋，从零环戏法开始",
-					"author": "蓝白海洋",
-					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1045644311/180",
-					"url": "https://www.qidian.com/book/1045644311/",
-					"category": "玄幻",
-					"lastChapter": "第四百一十七章 新的问题，炼金部副部长，竞选，伊恩的杀招！",
-					"updateStatus": "有更新",
-					"readProgress": "读至第二百一十四章 白银学会福利，认可，卡修斯的错愕",
-					"lastChapterNum": 417,
-					"readChapterNum": 214
-				},
-				{
-					"title": "文豪：这大叔才华横溢",
-					"author": "一切以大橘为重",
-					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1045597263/180",
-					"url": "https://www.qidian.com/book/1045597263/",
-					"category": "都市",
-					"lastChapter": "第41章",
-					"updateStatus": "有更新",
-					"readProgress": "读至第96章 我能加入吗？",
-					"lastChapterNum": 41,
-					"readChapterNum": 96
-				},
-				{
-					"title": "1836：我在大英当文豪",
-					"author": "小颗栗子",
-					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1047725301/180",
-					"url": "https://www.qidian.com/book/1047725301/",
-					"category": "历史",
-					"lastChapter": "第318章 丐版流水线以及米歇尔勋爵的金矿",
-					"updateStatus": "有更新",
-					"readProgress": "读至第209章 难道这还不值得一个爵位吗？",
-					"lastChapterNum": 318,
-					"readChapterNum": 209
-				},
-				{
-					"title": "红楼芳华，权倾天下",
-					"author": "爱车的z",
-					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1045831749/180",
-					"url": "https://www.qidian.com/book/1045831749/",
-					"category": "历史",
-					"lastChapter": "第594章 蔡太师发燥，秦可卿身世",
-					"updateStatus": "有更新",
-					"readProgress": "读至第172章 后宫争宠，‘残酷’如斯",
-					"lastChapterNum": 594,
-					"readChapterNum": 172
-				},
-				{
-					"title": "谁让他当炊事兵的！",
-					"author": "早退迟到",
-					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1044445044/180",
-					"url": "https://www.qidian.com/book/1044445044/",
-					"category": "都市",
-					"lastChapter": "504.冲锋号一响，上帝来了都得戴头盔",
-					"updateStatus": "有更新",
-					"readProgress": "读至222.别样思维，机步营当合成营"
-				},
-				{
-					"title": "我，天才交易员！",
-					"author": "我居然是凡人",
-					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1047998044/180",
-					"url": "https://www.qidian.com/book/1047998044/",
-					"category": "都市",
-					"lastChapter": "第一百八十七章 不需要被看见",
-					"updateStatus": "有更新",
-					"readProgress": "读至第一百二十章 养小花",
-					"lastChapterNum": 187,
-					"readChapterNum": 120
 				},
 				{
 					"title": "重生高考前99天",
@@ -772,18 +1612,6 @@
 					"readChapterNum": 558
 				},
 				{
-					"title": "我，枪神！",
-					"author": "如水意",
-					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1047166699/180",
-					"url": "https://www.qidian.com/book/1047166699/",
-					"category": "都市",
-					"lastChapter": "第519章 送温暖",
-					"updateStatus": "有更新",
-					"readProgress": "读至第164章 只有大方？",
-					"lastChapterNum": 519,
-					"readChapterNum": 164
-				},
-				{
 					"title": "朕真的不务正业",
 					"author": "吾谁与归",
 					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1036763810/180",
@@ -793,222 +1621,6 @@
 					"updateStatus": "有更新",
 					"readProgress": "读至第一千二百四十六章 兴荣之间有阴阳之变",
 					"readChapterNum": 1246
-				},
-				{
-					"title": "人在美利坚：我的叔叔堂吉诃德",
-					"author": "喜欢吃圣代",
-					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1047259146/180",
-					"url": "https://www.qidian.com/book/1047259146/",
-					"category": "都市",
-					"lastChapter": "8月月末感言&amp;9月更新计划",
-					"updateStatus": "有更新",
-					"readProgress": "读至第354章 再来一条！（求月票）",
-					"readChapterNum": 354
-				},
-				{
-					"title": "重生童年：从救下小青梅开始",
-					"author": "梦中锦鲤游",
-					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1042203614/180",
-					"url": "https://www.qidian.com/book/1042203614/",
-					"category": "都市",
-					"lastChapter": "第845章 公益广告",
-					"updateStatus": "有更新",
-					"readProgress": "读至第153章 又发奖励",
-					"lastChapterNum": 845,
-					"readChapterNum": 153
-				},
-				{
-					"title": "从海贼开始横推万界",
-					"author": "燕云因陀罗",
-					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1033064951/180",
-					"url": "https://www.qidian.com/book/1033064951/",
-					"category": "轻小说",
-					"lastChapter": "第三千零七十一章 冥府意志VS深渊意志！",
-					"updateStatus": "有更新",
-					"readProgress": "读至《天上金缴纳通知书》",
-					"lastChapterNum": 3071
-				},
-				{
-					"title": "没钱上大学的我只能去屠龙了",
-					"author": "宇宙无敌水哥",
-					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1021624434/180",
-					"url": "https://www.qidian.com/book/1021624434/",
-					"category": "轻小说",
-					"lastChapter": "第二千一百四十四章 ：众生相",
-					"updateStatus": "有更新",
-					"readProgress": "读至第二千一百二十六章：天台",
-					"lastChapterNum": 2144,
-					"readChapterNum": 2126
-				},
-				{
-					"title": "巨舰横宋：我的物资来自祖国",
-					"author": "伴读小牧童",
-					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1047574891/180",
-					"url": "https://www.qidian.com/book/1047574891/",
-					"category": "历史",
-					"lastChapter": "第484章、活见鬼……",
-					"updateStatus": "有更新",
-					"readProgress": "读至第98章、大胆的干！",
-					"lastChapterNum": 484,
-					"readChapterNum": 98
-				},
-				{
-					"title": "都重生了谁还正经创业啊",
-					"author": "花花花花花光啦",
-					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1042400352/180",
-					"url": "https://www.qidian.com/book/1042400352/",
-					"category": "都市",
-					"lastChapter": "第一千零三十三章 追命判官-唐俊",
-					"updateStatus": "有更新",
-					"readProgress": "读至第二百一十一章 日落西山猢狲散（求月票，三更第二更！）",
-					"lastChapterNum": 1033,
-					"readChapterNum": 211
-				},
-				{
-					"title": "哥布林重度依赖",
-					"author": "絮理",
-					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1042786143/180",
-					"url": "https://www.qidian.com/book/1042786143/",
-					"category": "奇幻",
-					"lastChapter": "第633章 【终末逆鳞】",
-					"updateStatus": "有更新",
-					"readProgress": "读至上架感言",
-					"lastChapterNum": 633
-				},
-				{
-					"title": "东京泡沫人生",
-					"author": "大肚杯",
-					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1033886400/180",
-					"url": "https://www.qidian.com/book/1033886400/",
-					"category": "都市",
-					"lastChapter": "1645，做空一个国家？！玩真的？",
-					"updateStatus": "有更新",
-					"readProgress": "读至524，退后！我要开始装B了！"
-				},
-				{
-					"title": "龙藏",
-					"author": "烟雨江南",
-					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1038996214/180",
-					"url": "https://www.qidian.com/book/1038996214/",
-					"category": "玄幻",
-					"lastChapter": "第1462章 世界很大",
-					"updateStatus": "有更新",
-					"readProgress": "读至第八十八章 天下无双",
-					"lastChapterNum": 1462,
-					"readChapterNum": 88
-				},
-				{
-					"title": "看好了，法爷是这样玩的！",
-					"author": "小新吹泡泡",
-					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1044012213/180",
-					"url": "https://www.qidian.com/book/1044012213/",
-					"category": "玄幻",
-					"lastChapter": "请假一天，明天开学",
-					"updateStatus": "有更新",
-					"readProgress": "读至今天领证去啦~~~~"
-				},
-				{
-					"title": "Z世代艺术家",
-					"author": "起酥面包",
-					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1042685395/180",
-					"url": "https://www.qidian.com/book/1042685395/",
-					"category": "都市",
-					"lastChapter": "第557章 最后一骂",
-					"updateStatus": "有更新",
-					"readProgress": "读至第97章 《苍夜雪》上",
-					"lastChapterNum": 557,
-					"readChapterNum": 97
-				},
-				{
-					"title": "综网：从速刷打灰开始的战斗天选",
-					"author": "易伤秋者",
-					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1046368677/180",
-					"url": "https://www.qidian.com/book/1046368677/",
-					"category": "游戏",
-					"lastChapter": "第572章 时间的瘟疫？（两更！）",
-					"updateStatus": "有更新",
-					"readProgress": "读至第15章 lv3圣骑士（一更！ ）",
-					"lastChapterNum": 572,
-					"readChapterNum": 15
-				},
-				{
-					"title": "神农道君",
-					"author": "神威校尉",
-					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1039640376/180",
-					"url": "https://www.qidian.com/book/1039640376/",
-					"category": "玄幻",
-					"lastChapter": "第八章 ：收获满满",
-					"updateStatus": "有更新",
-					"readProgress": "读至第1章 ：新版本降临！玄黄五巨头聚首！姬姒的新法术！",
-					"lastChapterNum": 8,
-					"readChapterNum": 1
-				},
-				{
-					"title": "星渊纪元",
-					"author": "临海墨",
-					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1045849540/180",
-					"url": "https://www.qidian.com/book/1045849540/",
-					"category": "玄幻",
-					"lastChapter": "第577章 自荐，投名状（月初求月票）",
-					"updateStatus": "有更新",
-					"readProgress": "读至第438章 一门三尊，终成神灵",
-					"lastChapterNum": 577,
-					"readChapterNum": 438
-				},
-				{
-					"title": "1994：菜农逆袭",
-					"author": "野生的冰糖葫芦",
-					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1043993995/180",
-					"url": "https://www.qidian.com/book/1043993995/",
-					"category": "都市",
-					"lastChapter": "太累了，再请假一天",
-					"updateStatus": "有更新",
-					"readProgress": "读至第863章 小结",
-					"readChapterNum": 863
-				},
-				{
-					"title": "你这帝国怎么这么像天灾",
-					"author": "三三不喝酒",
-					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1045347846/180",
-					"url": "https://www.qidian.com/book/1045347846/",
-					"category": "轻小说",
-					"lastChapter": "第520章 改造议程启动",
-					"updateStatus": "有更新",
-					"readProgress": "读至第5章 起源基地",
-					"lastChapterNum": 520,
-					"readChapterNum": 5
-				},
-				{
-					"title": "诸天，从用概念技治疗道伤开始",
-					"author": "山江月夜",
-					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1045709517/180",
-					"url": "https://www.qidian.com/book/1045709517/",
-					"category": "诸天无限",
-					"lastChapter": "第421章 圣体血脉杨熙，准帝霸体出行",
-					"updateStatus": "无更新",
-					"readProgress": "读至首章",
-					"lastChapterNum": 421
-				},
-				{
-					"title": "重生的我超有追求",
-					"author": "鲸鱼禅师",
-					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1046796152/180",
-					"url": "https://www.qidian.com/book/1046796152/",
-					"category": "都市",
-					"lastChapter": "381 老阴阳人",
-					"updateStatus": "有更新",
-					"readProgress": "读至202 送个鸟"
-				},
-				{
-					"title": "这才是高武！",
-					"author": "小道白霜",
-					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1044837338/180",
-					"url": "https://www.qidian.com/book/1044837338/",
-					"category": "玄幻",
-					"lastChapter": "第608章 万青宝刀，东窗事发【求月票】",
-					"updateStatus": "有更新",
-					"readProgress": "读至九个月，精品",
-					"lastChapterNum": 608
 				},
 				{
 					"title": "天命皆烬",
@@ -1023,183 +1635,6 @@
 					"readChapterNum": 85
 				},
 				{
-					"title": "千面之龙",
-					"author": "愤怒的松鼠",
-					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1043761210/180",
-					"url": "https://www.qidian.com/book/1043761210/",
-					"category": "轻小说",
-					"lastChapter": "第1070章 长远规划",
-					"updateStatus": "有更新",
-					"readProgress": "读至第39章 修女玛利亚（一更）",
-					"lastChapterNum": 1070,
-					"readChapterNum": 39
-				},
-				{
-					"title": "天命之上",
-					"author": "风月",
-					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1039831421/180",
-					"url": "https://www.qidian.com/book/1039831421/",
-					"category": "轻小说",
-					"lastChapter": "第一千零五十五章 使命的终点",
-					"updateStatus": "有更新",
-					"readProgress": "读至第九百三十七章 胜负雷鸣（感谢虎皮猫大人的盟主",
-					"lastChapterNum": 1055,
-					"readChapterNum": 937
-				},
-				{
-					"title": "仙明实录",
-					"author": "全订",
-					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1046425938/180",
-					"url": "https://www.qidian.com/book/1046425938/",
-					"category": "历史",
-					"lastChapter": "第四百一十章 人事变动，分地立基",
-					"updateStatus": "有更新",
-					"readProgress": "读至第二百三十六章 面具",
-					"lastChapterNum": 410,
-					"readChapterNum": 236
-				},
-				{
-					"title": "从斩杀线到华尔街之神",
-					"author": "天天炒牛肉",
-					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1049018603/180",
-					"url": "https://www.qidian.com/book/1049018603/",
-					"category": "都市",
-					"lastChapter": "第193章 雷曼兄弟房贷部门关停！加仓雷曼，林顿生日，海伦·劳伦斯",
-					"updateStatus": "有更新",
-					"readProgress": "读至第123章 林顿报告的威力！毕马威审计团队与管理层的对峙！",
-					"lastChapterNum": 193,
-					"readChapterNum": 123
-				},
-				{
-					"title": "维度魔神的聊天群",
-					"author": "九棍",
-					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1043579203/180",
-					"url": "https://www.qidian.com/book/1043579203/",
-					"category": "诸天无限",
-					"lastChapter": "第一千一百七十八章 不打不相识",
-					"updateStatus": "无更新",
-					"readProgress": "读至首章",
-					"lastChapterNum": 1178
-				},
-				{
-					"title": "火影：我的设定在你之上",
-					"author": "格子碑",
-					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1048802330/180",
-					"url": "https://www.qidian.com/book/1048802330/",
-					"category": "轻小说",
-					"lastChapter": "第221章神树界降诞",
-					"updateStatus": "有更新",
-					"readProgress": "读至第203章坦白",
-					"lastChapterNum": 221,
-					"readChapterNum": 203
-				},
-				{
-					"title": "吟游诗人又幻想了",
-					"author": "请叫我鱼右",
-					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1045193869/180",
-					"url": "https://www.qidian.com/book/1045193869/",
-					"category": "奇幻",
-					"lastChapter": "第498章 我宁愿和你一起死在这里（4k求追订）",
-					"updateStatus": "有更新",
-					"readProgress": "读至第112章 遗产（求追订！）",
-					"lastChapterNum": 498,
-					"readChapterNum": 112
-				},
-				{
-					"title": "亡灵法师，召唤055什么鬼？",
-					"author": "卧雪观星",
-					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1045018157/180",
-					"url": "https://www.qidian.com/book/1045018157/",
-					"category": "玄幻",
-					"lastChapter": "第688章 继承制 回旋镖 云端之城的南北大仓",
-					"updateStatus": "无更新",
-					"readProgress": "读至首章",
-					"lastChapterNum": 688
-				},
-				{
-					"title": "人生激荡四十年",
-					"author": "大侠是你吗",
-					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1037260223/180",
-					"url": "https://www.qidian.com/book/1037260223/",
-					"category": "都市",
-					"lastChapter": "第一千三百九十一章 好事将近",
-					"updateStatus": "有更新",
-					"readProgress": "读至第四百一十六章 倒霉蛋",
-					"lastChapterNum": 1391,
-					"readChapterNum": 416
-				},
-				{
-					"title": "天生大爱宇智波",
-					"author": "信息交流",
-					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1048557083/180",
-					"url": "https://www.qidian.com/book/1048557083/",
-					"category": "轻小说",
-					"lastChapter": "第327章 在砂隐植树造林？",
-					"updateStatus": "有更新",
-					"readProgress": "读至第195章 什么最强尾兽，橘皮小狗罢了！",
-					"lastChapterNum": 327,
-					"readChapterNum": 195
-				},
-				{
-					"title": "系统，我真不是苏联学霸",
-					"author": "无机糖",
-					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1049137208/180",
-					"url": "https://www.qidian.com/book/1049137208/",
-					"category": "都市",
-					"lastChapter": "第260章 神！（月票加更）",
-					"updateStatus": "有更新",
-					"readProgress": "读至第233章 俄国有些老本还是在的！",
-					"lastChapterNum": 260,
-					"readChapterNum": 233
-				},
-				{
-					"title": "美剧：从无耻之徒开始的硅谷大亨",
-					"author": "微醺小螃蟹",
-					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1048643009/180",
-					"url": "https://www.qidian.com/book/1048643009/",
-					"category": "诸天无限",
-					"lastChapter": "第210章 让他们再笑最后一个晚上",
-					"updateStatus": "有更新",
-					"readProgress": "读至第120章 弗兰克，怎么老是你",
-					"lastChapterNum": 210,
-					"readChapterNum": 120
-				},
-				{
-					"title": "种菜骷髅的异域开荒",
-					"author": "情终流水",
-					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1026100141/180",
-					"url": "https://www.qidian.com/book/1026100141/",
-					"category": "轻小说",
-					"lastChapter": "一千六百九十一章 增量是什么？",
-					"updateStatus": "有更新",
-					"readProgress": "读至第一千四百零六章 王，去",
-					"readChapterNum": 1406
-				},
-				{
-					"title": "你的技能很好，现在我也有了",
-					"author": "明前云雾",
-					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1048538381/180",
-					"url": "https://www.qidian.com/book/1048538381/",
-					"category": "玄幻",
-					"lastChapter": "第368章 这拳头有力气",
-					"updateStatus": "有更新",
-					"readProgress": "读至第278章 非人类任务方式",
-					"lastChapterNum": 368,
-					"readChapterNum": 278
-				},
-				{
-					"title": "作家手册",
-					"author": "听日",
-					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1049543990/180",
-					"url": "https://www.qidian.com/book/1049543990/",
-					"category": "轻小说",
-					"lastChapter": "第168章 老师你好，老师再见",
-					"updateStatus": "有更新",
-					"readProgress": "读至第90章 你去打天蚕土豆",
-					"lastChapterNum": 168,
-					"readChapterNum": 90
-				},
-				{
 					"title": "残血玩家",
 					"author": "大饼大脸",
 					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1037371789/180",
@@ -1208,230 +1643,6 @@
 					"lastChapter": "这次是正经的新书《这里不欢迎玩家》",
 					"updateStatus": "有更新",
 					"readProgress": "读至200、未来的危险"
-				},
-				{
-					"title": "修仙的我却来到了巫师世界",
-					"author": "食草凯门鳄",
-					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1044603424/180",
-					"url": "https://www.qidian.com/book/1044603424/",
-					"category": "奇幻",
-					"lastChapter": "第八百九十六章 大总统",
-					"updateStatus": "有更新",
-					"readProgress": "读至第三百一十三章 第二阶段和红尘之气",
-					"lastChapterNum": 896,
-					"readChapterNum": 313
-				},
-				{
-					"title": "学霸的修炼空间",
-					"author": "首席设计师",
-					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1046648247/180",
-					"url": "https://www.qidian.com/book/1046648247/",
-					"category": "都市",
-					"lastChapter": "第587章 局部紫外稳定性，解决！",
-					"updateStatus": "有更新",
-					"readProgress": "读至第107章 绝对优胜者",
-					"lastChapterNum": 587,
-					"readChapterNum": 107
-				},
-				{
-					"title": "暗影熊提伯斯的位面之旅",
-					"author": "暗影熊",
-					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1010510263/180",
-					"url": "https://www.qidian.com/book/1010510263/",
-					"category": "诸天无限",
-					"lastChapter": "第4658章(๑•ᴗ•๑)♡神仙亦有凡尘恨，语笑嫣然总断魂",
-					"updateStatus": "有更新",
-					"readProgress": "读至第3722章(๑•ᴗ•๑)♡强行加入队伍",
-					"lastChapterNum": 4658,
-					"readChapterNum": 3722
-				},
-				{
-					"title": "一人之下：我开启了神话纪元",
-					"author": "幕后黑猪",
-					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1040294512/180",
-					"url": "https://www.qidian.com/book/1040294512/",
-					"category": "轻小说",
-					"lastChapter": "第六百一十七章",
-					"updateStatus": "有更新",
-					"readProgress": "读至上架+三江感言",
-					"lastChapterNum": 617
-				},
-				{
-					"title": "神豪从逆袭人生开始",
-					"author": "潇潇清枫",
-					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1044505655/180",
-					"url": "https://www.qidian.com/book/1044505655/",
-					"category": "都市",
-					"lastChapter": "第五百九十九章：祭献",
-					"updateStatus": "有更新",
-					"readProgress": "读至第三百九十六章：大刀阔斧的全面改革（4k）",
-					"lastChapterNum": 599,
-					"readChapterNum": 396
-				},
-				{
-					"title": "奇域行商从诅咒开始",
-					"author": "极南之楠",
-					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1045252862/180",
-					"url": "https://www.qidian.com/book/1045252862/",
-					"category": "奇幻",
-					"lastChapter": "第五百零五章 琥珀王座武器化的可能",
-					"updateStatus": "有更新",
-					"readProgress": "读至第一百二十九章 潜伏者",
-					"lastChapterNum": 505,
-					"readChapterNum": 129
-				},
-				{
-					"title": "拯救宇智波，从全族学霸气开始",
-					"author": "三年不感冒",
-					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1047051914/180",
-					"url": "https://www.qidian.com/book/1047051914/",
-					"category": "轻小说",
-					"lastChapter": "第352章 贝吉塔星毁灭真相",
-					"updateStatus": "有更新",
-					"readProgress": "读至第253章 现在的你还不够格",
-					"lastChapterNum": 352,
-					"readChapterNum": 253
-				},
-				{
-					"title": "冒险者重度依赖！",
-					"author": "梦镜之影",
-					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1047930367/180",
-					"url": "https://www.qidian.com/book/1047930367/",
-					"category": "奇幻",
-					"lastChapter": "第142章：不浪费碗里的一粒米",
-					"updateStatus": "有更新",
-					"readProgress": "读至第108章：飞贼的职责",
-					"lastChapterNum": 142,
-					"readChapterNum": 108
-				},
-				{
-					"title": "火影：宇智波葫芦娃正在重塑忍界",
-					"author": "阴陀螺",
-					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1049561529/180",
-					"url": "https://www.qidian.com/book/1049561529/",
-					"category": "轻小说",
-					"lastChapter": "第一百八十七章 无限月读和大筒木、强横的宇智波",
-					"updateStatus": "有更新",
-					"readProgress": "读至第九十六章 云隐殇、雾隐动、木叶惊",
-					"lastChapterNum": 187,
-					"readChapterNum": 96
-				},
-				{
-					"title": "玩家们的NPC大爹",
-					"author": "玖武珥绮",
-					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1038949630/180",
-					"url": "https://www.qidian.com/book/1038949630/",
-					"category": "轻小说",
-					"lastChapter": "第2860章 可能性的迷宫",
-					"updateStatus": "有更新",
-					"readProgress": "读至第58章第一幕：被诅咒的白银之血",
-					"lastChapterNum": 2860,
-					"readChapterNum": 58
-				},
-				{
-					"title": "重生2013：超级科技帝国",
-					"author": "昭灵驷玉",
-					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1045126130/180",
-					"url": "https://www.qidian.com/book/1045126130/",
-					"category": "科幻",
-					"lastChapter": "【宇宙篇】第593章 流浪星球",
-					"updateStatus": "有更新",
-					"readProgress": "读至关于本书后期冲出地球的剧情安排",
-					"lastChapterNum": 593
-				},
-				{
-					"title": "我在中东当王爷",
-					"author": "万古青天一株柳",
-					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1046815397/180",
-					"url": "https://www.qidian.com/book/1046815397/",
-					"category": "都市",
-					"lastChapter": "第753章 政治就是这么恶心",
-					"updateStatus": "有更新",
-					"readProgress": "读至第124章 退婚？没门！",
-					"lastChapterNum": 753,
-					"readChapterNum": 124
-				},
-				{
-					"title": "机器人学魔法的概率不是零",
-					"author": "北雁悠悠",
-					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1047663339/180",
-					"url": "https://www.qidian.com/book/1047663339/",
-					"category": "轻小说",
-					"lastChapter": "第367章 「余烈」回响（4）",
-					"updateStatus": "有更新",
-					"readProgress": "读至第331章 “神之卵”降临（终）",
-					"lastChapterNum": 367,
-					"readChapterNum": 331
-				},
-				{
-					"title": "谁说我不是正经冒险者",
-					"author": "NK狐NK",
-					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1047882236/180",
-					"url": "https://www.qidian.com/book/1047882236/",
-					"category": "轻小说",
-					"lastChapter": "第581章 你见过叠满甲的癫佬吗？",
-					"updateStatus": "有更新",
-					"readProgress": "读至第242章 传说、容器、声望",
-					"lastChapterNum": 581,
-					"readChapterNum": 242
-				},
-				{
-					"title": "游戏制作：从重铸二次元游戏开始",
-					"author": "月莹夜",
-					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1044472173/180",
-					"url": "https://www.qidian.com/book/1044472173/",
-					"category": "都市",
-					"lastChapter": "第1494章 抽选",
-					"updateStatus": "有更新",
-					"readProgress": "读至第1481章 好事",
-					"lastChapterNum": 1494,
-					"readChapterNum": 1481
-				},
-				{
-					"title": "我在异界种田封神",
-					"author": "永夜骑士",
-					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1035966710/180",
-					"url": "https://www.qidian.com/book/1035966710/",
-					"category": "奇幻",
-					"lastChapter": "第一千七百八十章 神国山脉长城",
-					"updateStatus": "尚未阅读",
-					"readProgress": "尚未阅读",
-					"lastChapterNum": 1780
-				},
-				{
-					"title": "逼我当神豪是吧",
-					"author": "云里狂生",
-					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1040317126/180",
-					"url": "https://www.qidian.com/book/1040317126/",
-					"category": "都市",
-					"lastChapter": "第890章惩罚李小路，爆赚1个亿！（大章求订阅）",
-					"updateStatus": "有更新",
-					"readProgress": "读至第52章安璐的高调同事",
-					"lastChapterNum": 890,
-					"readChapterNum": 52
-				},
-				{
-					"title": "超凡大谱系",
-					"author": "鸽子与咸鱼",
-					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1035582058/180",
-					"url": "https://www.qidian.com/book/1035582058/",
-					"category": "游戏",
-					"lastChapter": "第53章 ：戴维·琼斯",
-					"updateStatus": "有更新",
-					"readProgress": "读至今天鸽一天",
-					"lastChapterNum": 53
-				},
-				{
-					"title": "首富从AI浪潮开始",
-					"author": "路大头",
-					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1047996831/180",
-					"url": "https://www.qidian.com/book/1047996831/",
-					"category": "都市",
-					"lastChapter": "第四百一十六章 这才是新时代的API",
-					"updateStatus": "有更新",
-					"readProgress": "读至第二百四十五章 已省略",
-					"lastChapterNum": 416,
-					"readChapterNum": 245
 				},
 				{
 					"title": "仙道社会正盛，你说我在末法？",
@@ -1445,72 +1656,6 @@
 					"readChapterNum": 154
 				},
 				{
-					"title": "什么？我的二次元手办都成真了！",
-					"author": "浪漫人类爱",
-					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1047147445/180",
-					"url": "https://www.qidian.com/book/1047147445/",
-					"category": "轻小说",
-					"lastChapter": "第三百一十九章 桑松真正的愿望",
-					"updateStatus": "有更新",
-					"readProgress": "读至第二百四十三章 这TM是我能听的吗？",
-					"lastChapterNum": 319,
-					"readChapterNum": 243
-				},
-				{
-					"title": "火影：从打造天才人设开始",
-					"author": "南方暖风昔人",
-					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1047711617/180",
-					"url": "https://www.qidian.com/book/1047711617/",
-					"category": "轻小说",
-					"lastChapter": "还没忙完",
-					"updateStatus": "无更新",
-					"readProgress": "读至首章"
-				},
-				{
-					"title": "lol：开局绑定辛德拉",
-					"author": "胖铜侠",
-					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1042131169/180",
-					"url": "https://www.qidian.com/book/1042131169/",
-					"category": "轻小说",
-					"lastChapter": "第1156章 拉姆的预感",
-					"updateStatus": "有更新",
-					"readProgress": "读至第644章 伟大的黑太阳把光辉洒向了嘉文四世（二合一",
-					"lastChapterNum": 1156,
-					"readChapterNum": 644
-				},
-				{
-					"title": "三塔游戏",
-					"author": "更从心",
-					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1041991346/180",
-					"url": "https://www.qidian.com/book/1041991346/",
-					"category": "科幻",
-					"lastChapter": "请假条",
-					"updateStatus": "无更新",
-					"readProgress": "读至首章"
-				},
-				{
-					"title": "末日游戏：我觉醒指挥官天赋",
-					"author": "无能的作者酱",
-					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1045866725/180",
-					"url": "https://www.qidian.com/book/1045866725/",
-					"category": "科幻",
-					"lastChapter": "784 领域对抗",
-					"updateStatus": "有更新",
-					"readProgress": "读至178共和国的海军"
-				},
-				{
-					"title": "1979黄金时代",
-					"author": "睡觉会变白",
-					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1039689097/180",
-					"url": "https://www.qidian.com/book/1039689097/",
-					"category": "都市",
-					"lastChapter": "第1441章 洋大人也不顶用",
-					"updateStatus": "有更新",
-					"readProgress": "读至第699章 一念之间",
-					"lastChapterNum": 1441,
-					"readChapterNum": 699
-				},
-				{
 					"title": "高武：我继承了游戏里的邪恶组织",
 					"author": "坟头老树",
 					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1041174910/180",
@@ -1519,17 +1664,6 @@
 					"lastChapter": "请个假",
 					"updateStatus": "无更新",
 					"readProgress": "读至首章"
-				},
-				{
-					"title": "钢铁火药和施法者",
-					"author": "尹紫电",
-					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1021263756/180",
-					"url": "https://www.qidian.com/book/1021263756/",
-					"category": "奇幻",
-					"lastChapter": "第一百零八章 狐鼠游戏（十八）",
-					"updateStatus": "无更新",
-					"readProgress": "读至首章",
-					"lastChapterNum": 108
 				},
 				{
 					"title": "东京僚机王",
@@ -1554,29 +1688,6 @@
 					"readChapterNum": 1
 				},
 				{
-					"title": "火影：融合万界角色模板",
-					"author": "宝石对影",
-					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1048723022/180",
-					"url": "https://www.qidian.com/book/1048723022/",
-					"category": "轻小说",
-					"lastChapter": "第二百六十六章 纲手怀孕（大结局）",
-					"updateStatus": "有更新",
-					"readProgress": "读至第一百四十三章 夏木对战绳树，鬼化小南、弥彦（第三、四更）",
-					"lastChapterNum": 266,
-					"readChapterNum": 143
-				},
-				{
-					"title": "1987我的年代",
-					"author": "三月麻竹",
-					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1040855137/180",
-					"url": "https://www.qidian.com/book/1040855137/",
-					"category": "都市",
-					"lastChapter": "第933章",
-					"updateStatus": "有更新",
-					"readProgress": "读至额，有必要澄清一下",
-					"lastChapterNum": 933
-				},
-				{
 					"title": "空想具现的大贵族",
 					"author": "泼墨红尘里",
 					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1035510486/180",
@@ -1597,17 +1708,6 @@
 					"readProgress": "读至第143章 踪迹",
 					"lastChapterNum": 562,
 					"readChapterNum": 143
-				},
-				{
-					"title": "我来教你们修仙",
-					"author": "懒人zero",
-					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1044084610/180",
-					"url": "https://www.qidian.com/book/1044084610/",
-					"category": "玄幻",
-					"lastChapter": "新书《二十一世纪的白玉京》可投资了！",
-					"updateStatus": "有更新",
-					"readProgress": "读至第十五章 圣人一言，万民响应（3/3）",
-					"readChapterNum": 15
 				},
 				{
 					"title": "海贼：从捡到红发断臂开始",
@@ -1682,16 +1782,6 @@
 					"lastChapter": "新书《长生短寿》已开。",
 					"updateStatus": "无更新",
 					"readProgress": "读至首章"
-				},
-				{
-					"title": "重生后，自己养成小青梅",
-					"author": "曹瞒君",
-					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1046765931/180",
-					"url": "https://www.qidian.com/book/1046765931/",
-					"category": "轻小说",
-					"lastChapter": "完结感言",
-					"updateStatus": "有更新",
-					"readProgress": "读至157 父母的冷战（第三更，求月票~）"
 				},
 				{
 					"title": "直播相亲：我的情报无限刷新",
@@ -1778,18 +1868,6 @@
 					"lastChapter": "完本感言",
 					"updateStatus": "无更新",
 					"readProgress": "读至首章"
-				},
-				{
-					"title": "1977：开局相亲女儿国王",
-					"author": "天不负01",
-					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1039879932/180",
-					"url": "https://www.qidian.com/book/1039879932/",
-					"category": "都市",
-					"lastChapter": "第八百六十一章 如坐针毡的小周同学！",
-					"updateStatus": "有更新",
-					"readProgress": "读至第三百九十七章 旅行箱上市",
-					"lastChapterNum": 861,
-					"readChapterNum": 397
 				},
 				{
 					"title": "火影从转生眼开始",
@@ -1946,17 +2024,6 @@
 					"updateStatus": "有更新",
 					"readProgress": "读至月初请假，休息一天！",
 					"lastChapterNum": 860
-				},
-				{
-					"title": "东京文豪，从拯救少女开始",
-					"author": "净消尘土",
-					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1041585652/180",
-					"url": "https://www.qidian.com/book/1041585652/",
-					"category": "都市",
-					"lastChapter": "新书《系统搞错了，她不是我的狗！》",
-					"updateStatus": "有更新",
-					"readProgress": "读至第339章 林老师你没有心！",
-					"readChapterNum": 339
 				},
 				{
 					"title": "现实扭曲者的战锤之旅",
@@ -2131,17 +2198,6 @@
 					"updateStatus": "有更新",
 					"readProgress": "读至第80章 我还没你微信呢",
 					"readChapterNum": 80
-				},
-				{
-					"title": "唯我独法：奇幻系日常",
-					"author": "邪王真眼赛高",
-					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1045532933/180",
-					"url": "https://www.qidian.com/book/1045532933/",
-					"category": "轻小说",
-					"lastChapter": "终章 我已四转，感觉良好！",
-					"updateStatus": "有更新",
-					"readProgress": "读至第213章 站在食物链顶端的男人",
-					"readChapterNum": 213
 				},
 				{
 					"title": "重生从艺考状元开始",
@@ -2439,16 +2495,6 @@
 					"readChapterNum": 24
 				},
 				{
-					"title": "生活不易，红龙卖艺？",
-					"author": "这啥啊都",
-					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1045939992/180",
-					"url": "https://www.qidian.com/book/1045939992/",
-					"category": "奇幻",
-					"lastChapter": "致歉",
-					"updateStatus": "无更新",
-					"readProgress": "读至首章"
-				},
-				{
 					"title": "巫师秘旅",
 					"author": "十园",
 					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1041159926/180",
@@ -2525,17 +2571,6 @@
 					"updateStatus": "有更新",
 					"readProgress": "读至第二十二章 日不落帝国",
 					"readChapterNum": 22
-				},
-				{
-					"title": "离职小米后，我成了友商公敌",
-					"author": "挨踢的老臣",
-					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1039766291/180",
-					"url": "https://www.qidian.com/book/1039766291/",
-					"category": "都市",
-					"lastChapter": "完本感言&项目复盘总结报告",
-					"updateStatus": "有更新",
-					"readProgress": "读至第536章 《赢在华夏特别版》",
-					"readChapterNum": 536
 				},
 				{
 					"title": "白衣披甲",
@@ -2666,16 +2701,6 @@
 					"lastChapter": "新书《我命令你成为密教教主》已发",
 					"updateStatus": "有更新",
 					"readProgress": "读至上架感言"
-				},
-				{
-					"title": "人在县城，你说我是大佬？",
-					"author": "森外",
-					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1043284603/180",
-					"url": "https://www.qidian.com/book/1043284603/",
-					"category": "都市",
-					"lastChapter": "又开了本新书",
-					"updateStatus": "有更新",
-					"readProgress": "读至229 去大世界玩"
 				},
 				{
 					"title": "让你改红旗h9，不是红旗导弹车",
@@ -2931,6 +2956,17 @@
 					"lastChapter": "新书上传",
 					"updateStatus": "有更新",
 					"readProgress": "读至上架感言"
+				},
+				{
+					"title": "东京文豪，从拯救少女开始",
+					"author": "净消尘土",
+					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1041585652/180",
+					"url": "https://www.qidian.com/book/1041585652/",
+					"category": "都市",
+					"lastChapter": "新书已发",
+					"updateStatus": "有更新",
+					"readProgress": "读至第339章 林老师你没有心！",
+					"readChapterNum": 339
 				},
 				{
 					"title": "魔法帝国两万年",
@@ -3332,6 +3368,130 @@
 					"readChapterNum": 478
 				},
 				{
+					"title": "武德充沛",
+					"author": "烟火成城",
+					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1033977102/180",
+					"url": "https://www.qidian.com/book/1033977102/",
+					"category": "科幻",
+					"lastChapter": "新书《这一定不是克苏鲁！》发布！",
+					"updateStatus": "尚未阅读",
+					"readProgress": "尚未阅读"
+				},
+				{
+					"title": "木叶：宇智波的绝对正义",
+					"author": "糯米糖葫芦",
+					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1044536796/180",
+					"url": "https://www.qidian.com/book/1044536796/",
+					"category": "轻小说",
+					"lastChapter": "第四百四十八章 土遁·晶格重组防御壁！",
+					"updateStatus": "尚未阅读",
+					"readProgress": "尚未阅读",
+					"lastChapterNum": 448
+				},
+				{
+					"title": "我一个人砍翻乱世",
+					"author": "新丰",
+					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1033822086/180",
+					"url": "https://www.qidian.com/book/1033822086/",
+					"category": "玄幻",
+					"lastChapter": "新书发布了，都市文",
+					"updateStatus": "有更新",
+					"readProgress": "读至第110章 真的没有你想的那般复杂",
+					"readChapterNum": 110
+				},
+				{
+					"title": "重生之平安喜乐",
+					"author": "纯纯的橙",
+					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1038279127/180",
+					"url": "https://www.qidian.com/book/1038279127/",
+					"category": "都市",
+					"lastChapter": "新书:《重生1992，我在景区开民宿》",
+					"updateStatus": "有更新",
+					"readProgress": "读至下个月开始正式恢复更新"
+				},
+				{
+					"title": "重生的我只想专心学习",
+					"author": "纯纯的橙",
+					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1034243878/180",
+					"url": "https://www.qidian.com/book/1034243878/",
+					"category": "都市",
+					"lastChapter": "新书:《重生1992，我在景区开民宿》",
+					"updateStatus": "有更新",
+					"readProgress": "读至关于填档的小bug"
+				},
+				{
+					"title": "走进不科学",
+					"author": "新手钓鱼人",
+					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1031743384/180",
+					"url": "https://www.qidian.com/book/1031743384/",
+					"category": "科幻",
+					"lastChapter": "新书已肥，《报告祖国，我穿越了！》",
+					"updateStatus": "有更新",
+					"readProgress": "读至上架感言"
+				},
+				{
+					"title": "修仙：我在现代留过学",
+					"author": "脑袋大又秃",
+					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1040257435/180",
+					"url": "https://www.qidian.com/book/1040257435/",
+					"category": "仙侠",
+					"lastChapter": "新书《修仙：捡到半本百世书》已经可宰了",
+					"updateStatus": "有更新",
+					"readProgress": "读至第527章 陆幺搭台，郑法唱戏",
+					"readChapterNum": 527
+				},
+				{
+					"title": "许仙不是剑仙",
+					"author": "我为谪仙人",
+					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1026830638/180",
+					"url": "https://www.qidian.com/book/1026830638/",
+					"category": "仙侠",
+					"lastChapter": "新书《魔道功法的快乐你不懂》",
+					"updateStatus": "无更新",
+					"readProgress": "读至首章"
+				},
+				{
+					"title": "朕又突破了",
+					"author": "老告",
+					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1030312071/180",
+					"url": "https://www.qidian.com/book/1030312071/",
+					"category": "玄幻",
+					"lastChapter": "【新书：神诡大明：戚少保武运封神】",
+					"updateStatus": "有更新",
+					"readProgress": "读至咱的上架感言【章节已更】"
+				},
+				{
+					"title": "当了魔君的我想转系去道门",
+					"author": "猫猫泡泡澡",
+					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1033390924/180",
+					"url": "https://www.qidian.com/book/1033390924/",
+					"category": "仙侠",
+					"lastChapter": "第八十一章 邀月窟",
+					"updateStatus": "有更新",
+					"readProgress": "读至那个九十九章和上章一样",
+					"lastChapterNum": 81
+				},
+				{
+					"title": "重生学概论",
+					"author": "太卡.",
+					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1037662957/180",
+					"url": "https://www.qidian.com/book/1037662957/",
+					"category": "都市",
+					"lastChapter": "697 去中心化",
+					"updateStatus": "尚未阅读",
+					"readProgress": "尚未阅读"
+				},
+				{
+					"title": "重生互联网：从游戏开始",
+					"author": "挨踢的老臣",
+					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1037011298/180",
+					"url": "https://www.qidian.com/book/1037011298/",
+					"category": "都市",
+					"lastChapter": "新书已发《觉醒劳保系统后，我成了佛系卷王》",
+					"updateStatus": "有更新",
+					"readProgress": "读至上架感言！"
+				},
+				{
 					"title": "不许没收我的人籍",
 					"author": "可怜的夕夕",
 					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1037068020/180",
@@ -3341,17 +3501,6 @@
 					"updateStatus": "有更新",
 					"readProgress": "读至【萃老师的画】",
 					"lastChapterNum": 909
-				},
-				{
-					"title": "木叶：宇智波的绝对正义",
-					"author": "糯米糖葫芦",
-					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1044536796/180",
-					"url": "https://www.qidian.com/book/1044536796/",
-					"category": "轻小说",
-					"lastChapter": "第四百三十六章 布条吊带",
-					"updateStatus": "尚未阅读",
-					"readProgress": "尚未阅读",
-					"lastChapterNum": 436
 				},
 				{
 					"title": "不科学御兽",
@@ -3377,17 +3526,6 @@
 					"readChapterNum": 412
 				},
 				{
-					"title": "大国航天：从民营火箭开始",
-					"author": "旧城坦克",
-					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1040613604/180",
-					"url": "https://www.qidian.com/book/1040613604/",
-					"category": "科幻",
-					"lastChapter": "感谢【衣锦过客】大佬的推荐票",
-					"updateStatus": "有更新",
-					"readProgress": "读至第14章 令人震惊的算力",
-					"readChapterNum": 14
-				},
-				{
 					"title": "谁让他修仙的！",
 					"author": "最白的乌鸦",
 					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1036504904/180",
@@ -3407,16 +3545,6 @@
 					"updateStatus": "有更新",
 					"readProgress": "读至第四百五十四章 被勇者小队逐出，然后遇到的无敌的人",
 					"readChapterNum": 454
-				},
-				{
-					"title": "重生学概论",
-					"author": "太卡.",
-					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1037662957/180",
-					"url": "https://www.qidian.com/book/1037662957/",
-					"category": "都市",
-					"lastChapter": "695 完美解决",
-					"updateStatus": "尚未阅读",
-					"readProgress": "尚未阅读"
 				},
 				{
 					"title": "虹彩龙的位面之旅",
@@ -3462,16 +3590,6 @@
 					"readChapterNum": 710
 				},
 				{
-					"title": "人在宇宙，浪到失联",
-					"author": "山居仲夏夜",
-					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1037052662/180",
-					"url": "https://www.qidian.com/book/1037052662/",
-					"category": "轻小说",
-					"lastChapter": "新书上架，欢迎品读！",
-					"updateStatus": "有更新",
-					"readProgress": "读至59 星际遛狗大师【求追读！】"
-				},
-				{
 					"title": "我的亡灵不对劲",
 					"author": "鸽巫咕",
 					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1038315362/180",
@@ -3483,7 +3601,7 @@
 				},
 				{
 					"title": "东京：我的超能力每周刷新",
-					"author": "枪柏",
+					"author": "黑枪叁号",
 					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1037823070/180",
 					"url": "https://www.qidian.com/book/1037823070/",
 					"category": "轻小说",
@@ -3501,17 +3619,6 @@
 					"updateStatus": "有更新",
 					"readProgress": "读至第182章 唯一的灰烬之主",
 					"readChapterNum": 182
-				},
-				{
-					"title": "当了魔君的我想转系去道门",
-					"author": "猫猫泡泡澡",
-					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1033390924/180",
-					"url": "https://www.qidian.com/book/1033390924/",
-					"category": "仙侠",
-					"lastChapter": "第八十章 天庭的封印",
-					"updateStatus": "有更新",
-					"readProgress": "读至那个九十九章和上章一样",
-					"lastChapterNum": 80
 				},
 				{
 					"title": "从火影开始做幕后黑手",
@@ -3542,16 +3649,6 @@
 					"url": "https://www.qidian.com/book/1039389790/",
 					"category": "轻小说",
 					"lastChapter": "新书《08：我的县城青春物语》上架通知",
-					"updateStatus": "无更新",
-					"readProgress": "读至首章"
-				},
-				{
-					"title": "我的超能力每周刷新",
-					"author": "一片雪饼",
-					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1037632698/180",
-					"url": "https://www.qidian.com/book/1037632698/",
-					"category": "轻小说",
-					"lastChapter": "超能力新书来袭！",
 					"updateStatus": "无更新",
 					"readProgress": "读至首章"
 				},
@@ -3859,17 +3956,6 @@
 					"readChapterNum": 537
 				},
 				{
-					"title": "修仙：我在现代留过学",
-					"author": "脑袋大又秃",
-					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1040257435/180",
-					"url": "https://www.qidian.com/book/1040257435/",
-					"category": "仙侠",
-					"lastChapter": "番外六 地仙之祖，剑出地府（献给盟主卖棒棒糖的蜀黍）",
-					"updateStatus": "有更新",
-					"readProgress": "读至第527章 陆幺搭台，郑法唱戏",
-					"readChapterNum": 527
-				},
-				{
 					"title": "巫师：电磁纪元",
 					"author": "万古春",
 					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1047449466/180",
@@ -4039,16 +4125,6 @@
 					"lastChapter": "《尸怪修行笔记》百万字了。",
 					"updateStatus": "有更新",
 					"readProgress": "读至今天看太多新闻和八卦了！"
-				},
-				{
-					"title": "走进不科学",
-					"author": "新手钓鱼人",
-					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1031743384/180",
-					"url": "https://www.qidian.com/book/1031743384/",
-					"category": "科幻",
-					"lastChapter": "最后一篇番外已经发了",
-					"updateStatus": "有更新",
-					"readProgress": "读至上架感言"
 				},
 				{
 					"title": "古龙世界里的吃瓜剑客",
@@ -4756,16 +4832,6 @@
 					"readChapterNum": 402
 				},
 				{
-					"title": "朕又突破了",
-					"author": "老告",
-					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1030312071/180",
-					"url": "https://www.qidian.com/book/1030312071/",
-					"category": "玄幻",
-					"lastChapter": "新书《西游：睡在猴子下铺的兄弟》已上传",
-					"updateStatus": "有更新",
-					"readProgress": "读至咱的上架感言【章节已更】"
-				},
-				{
 					"title": "成龙历险记之家师刀龙",
 					"author": "大橘名叫小橘",
 					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1036717515/180",
@@ -4774,16 +4840,6 @@
 					"lastChapter": ".新书",
 					"updateStatus": "有更新",
 					"readProgress": "读至完结感言"
-				},
-				{
-					"title": "武德充沛",
-					"author": "烟火成城",
-					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1033977102/180",
-					"url": "https://www.qidian.com/book/1033977102/",
-					"category": "科幻",
-					"lastChapter": "新书《盗三界》已发布！",
-					"updateStatus": "尚未阅读",
-					"readProgress": "尚未阅读"
 				},
 				{
 					"title": "我看到了一切",
@@ -4991,17 +5047,6 @@
 					"updateStatus": "有更新",
 					"readProgress": "读至第680章 摘掉“赛博贞操锁”！",
 					"readChapterNum": 680
-				},
-				{
-					"title": "我一个人砍翻乱世",
-					"author": "新丰",
-					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1033822086/180",
-					"url": "https://www.qidian.com/book/1033822086/",
-					"category": "玄幻",
-					"lastChapter": "这书漫画上线了，可以去看看。",
-					"updateStatus": "有更新",
-					"readProgress": "读至第110章 真的没有你想的那般复杂",
-					"readChapterNum": 110
 				},
 				{
 					"title": "我以神明为食",
@@ -5516,6 +5561,16 @@
 					"lastChapterNum": 730
 				},
 				{
+					"title": "我的超能力每周刷新",
+					"author": "一片雪饼",
+					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1037632698/180",
+					"url": "https://www.qidian.com/book/1037632698/",
+					"category": "轻小说",
+					"lastChapter": "新书《寒霜千年》已开",
+					"updateStatus": "无更新",
+					"readProgress": "读至首章"
+				},
+				{
 					"title": "重生1960，我的工业时代",
 					"author": "腊肉角豆煲仔饭",
 					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1042098101/180",
@@ -5773,6 +5828,17 @@
 					"readProgress": "读至第361章 好熟悉的剧情",
 					"lastChapterNum": 385,
 					"readChapterNum": 361
+				},
+				{
+					"title": "大国航天：从民营火箭开始",
+					"author": "旧城坦克",
+					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1040613604/180",
+					"url": "https://www.qidian.com/book/1040613604/",
+					"category": "科幻",
+					"lastChapter": "完结感言",
+					"updateStatus": "有更新",
+					"readProgress": "读至第14章 令人震惊的算力",
+					"readChapterNum": 14
 				},
 				{
 					"title": "鸣人，做我儿子吧",
@@ -6324,16 +6390,6 @@
 					"readProgress": "读至第181章：奴隶贩子和废品大师（合章）",
 					"lastChapterNum": 728,
 					"readChapterNum": 181
-				},
-				{
-					"title": "重生之平安喜乐",
-					"author": "纯纯的橙",
-					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1038279127/180",
-					"url": "https://www.qidian.com/book/1038279127/",
-					"category": "都市",
-					"lastChapter": "新书《重生从拒绝退学开始》发布！",
-					"updateStatus": "有更新",
-					"readProgress": "读至下个月开始正式恢复更新"
 				},
 				{
 					"title": "一个喷嚏毁灭一个魔法文明",
@@ -7540,16 +7596,6 @@
 					"lastChapterNum": 90
 				},
 				{
-					"title": "重生互联网：从游戏开始",
-					"author": "挨踢的老臣",
-					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1037011298/180",
-					"url": "https://www.qidian.com/book/1037011298/",
-					"category": "都市",
-					"lastChapter": "新书《让你当社畜，你把老板炒了？》已发",
-					"updateStatus": "有更新",
-					"readProgress": "读至上架感言！"
-				},
-				{
 					"title": "这么菜打什么职业？回家养猪去吧",
 					"author": "想天开",
 					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1034066875/180",
@@ -8149,6 +8195,16 @@
 					"updateStatus": "有更新",
 					"readProgress": "读至调整一下更新时间",
 					"lastChapterNum": 8
+				},
+				{
+					"title": "人在宇宙，浪到失联",
+					"author": "山居仲夏夜",
+					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1037052662/180",
+					"url": "https://www.qidian.com/book/1037052662/",
+					"category": "轻小说",
+					"lastChapter": "441 来自未来的穿越者【大结局】",
+					"updateStatus": "有更新",
+					"readProgress": "读至59 星际遛狗大师【求追读！】"
 				},
 				{
 					"title": "我真有特异功能",
@@ -8852,16 +8908,6 @@
 					"readProgress": "读至第七百五十一章 时机",
 					"lastChapterNum": 765,
 					"readChapterNum": 751
-				},
-				{
-					"title": "重生的我只想专心学习",
-					"author": "纯纯的橙",
-					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1034243878/180",
-					"url": "https://www.qidian.com/book/1034243878/",
-					"category": "都市",
-					"lastChapter": "番外2：那些最美的人和事",
-					"updateStatus": "有更新",
-					"readProgress": "读至关于填档的小bug"
 				},
 				{
 					"title": "支教五年，大明成了日不落帝国",
@@ -9906,16 +9952,6 @@
 					"readProgress": "读至开新书了!大家支持一下!"
 				},
 				{
-					"title": "许仙不是剑仙",
-					"author": "我为谪仙人",
-					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1026830638/180",
-					"url": "https://www.qidian.com/book/1026830638/",
-					"category": "仙侠",
-					"lastChapter": "完本感言",
-					"updateStatus": "无更新",
-					"readProgress": "读至首章"
-				},
-				{
 					"title": "兴趣使然的探索者又在作死",
 					"author": "机战蛋",
 					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1017495649/180",
@@ -10113,9 +10149,10 @@
 					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1044368784/180",
 					"url": "https://www.qidian.com/book/1044368784/",
 					"category": "历史",
-					"lastChapter": "九月月票抽奖活动",
+					"lastChapter": "第704章 沮遏愿请，阳奉阴违",
 					"updateStatus": "有更新",
 					"readProgress": "读至第1章 穿越到大宋的学霸",
+					"lastChapterNum": 704,
 					"readChapterNum": 1
 				},
 				{
@@ -10124,9 +10161,10 @@
 					"cover": "https://bookcover.yuewen.com/qdbimg/349573/1044780667/180",
 					"url": "https://www.qidian.com/book/1044780667/",
 					"category": "历史",
-					"lastChapter": "新书开啦",
+					"lastChapter": "第481章 大结局",
 					"updateStatus": "尚未阅读",
-					"readProgress": "尚未阅读"
+					"readProgress": "尚未阅读",
+					"lastChapterNum": 481
 				}
 			]
 		}
